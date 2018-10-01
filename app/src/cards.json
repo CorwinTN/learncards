@@ -1,0 +1,340 @@
+{
+  "cards": [
+    {
+      "lesson": 1,
+      "id": "0",
+      "unknownText": "喝",
+      "translation": "пить",
+      "transcription": "hē"
+    },
+    {
+      "lesson": 1,
+      "id": "1",
+      "unknownText": "好",
+      "translation": "хорошо, хороший",
+      "transcription": "hǎo"
+    },
+    {
+      "lesson": 1,
+      "id": "2",
+      "unknownText": "谢尔盖",
+      "translation": "Сергей",
+      "transcription": "xiè’ěrgài"
+    },
+    {
+      "lesson": 1,
+      "id": "3",
+      "unknownText": "你",
+      "translation": "ты",
+      "transcription": "nǐ"
+    },
+    {
+      "lesson": 1,
+      "id": "4",
+      "unknownText": "吗",
+      "translation": "вопросительная частица, в конце предложения",
+      "transcription": "ma"
+    },
+    {
+      "lesson": 1,
+      "id": "5",
+      "unknownText": "我",
+      "translation": "я",
+      "transcription": "wǒ"
+    },
+    {
+      "lesson": 1,
+      "id": "6",
+      "unknownText": "很",
+      "translation": "очень",
+      "transcription": "hěn"
+    },
+    {
+      "lesson": 1,
+      "id": "7",
+      "unknownText": "也",
+      "translation": "тоже",
+      "transcription": "yě"
+    },
+    {
+      "lesson": 1,
+      "id": "8",
+      "unknownText": "呢",
+      "translation": "вопросительная частица для ответного вопроса \"а\"",
+      "transcription": "ne"
+    },
+    {
+      "lesson": 1,
+      "id": "9",
+      "unknownText": "忙",
+      "translation": "занятый, занято",
+      "transcription": "máng"
+    },
+    {
+      "lesson": 1,
+      "id": "10",
+      "unknownText": "爸爸",
+      "translation": "папа",
+      "transcription": "bàba"
+    },
+    {
+      "lesson": 1,
+      "id": "11",
+      "unknownText": "妈妈",
+      "translation": "мама",
+      "transcription": "māma"
+    },
+    {
+      "lesson": 1,
+      "id": "12",
+      "unknownText": "他",
+      "translation": "он",
+      "transcription": "tā"
+    },
+    {
+      "lesson": 1,
+      "id": "13",
+      "unknownText": "们",
+      "translation": "суфикс множественного числа",
+      "transcription": "men"
+    },
+    {
+      "lesson": 1,
+      "id": "14",
+      "unknownText": "他们",
+      "translation": "они",
+      "transcription": "tāmen"
+    },
+    {
+      "lesson": 1,
+      "id": "15",
+      "unknownText": "都",
+      "translation": "все. ставится после перечисления",
+      "transcription": "dōu"
+    },
+    {
+      "lesson": 1,
+      "id": "16",
+      "unknownText": "不",
+      "translation": "нет. категоричное",
+      "transcription": "bù"
+    },
+    {
+      "lesson": 1,
+      "id": "17",
+      "unknownText": "没",
+      "translation": "нет. не категоричное",
+      "transcription": "méi"
+    },
+    {
+      "lesson": 1,
+      "id": "18",
+      "unknownText": "男",
+      "translation": "мужчина, мужской",
+      "transcription": "nán"
+    },
+    {
+      "lesson": 1,
+      "id": "19",
+      "unknownText": "女",
+      "translation": "женщина, женский",
+      "transcription": "nǚ"
+    },
+    {
+      "lesson": 1,
+      "id": "20",
+      "unknownText": "朋友",
+      "translation": "друг, товарищь",
+      "transcription": "péngyou"
+    },
+    {
+      "lesson": 1,
+      "id": "21",
+      "unknownText": "男朋友",
+      "translation": "парень",
+      "transcription": "nánpéngyou"
+    },
+    {
+      "lesson": 1,
+      "id": "22",
+      "unknownText": "女朋友",
+      "translation": "девушка",
+      "transcription": "nǚpéngyou"
+    },
+    {
+      "lesson": 1,
+      "id": "23",
+      "unknownText": "哥哥",
+      "translation": "старший брат",
+      "transcription": "gēge"
+    },
+    {
+      "lesson": 1,
+      "id": "24",
+      "unknownText": "要",
+      "translation": "хотеть, страстно желать",
+      "transcription": "yāo"
+    },
+    {
+      "lesson": 1,
+      "id": "25",
+      "unknownText": "咖啡",
+      "translation": "кофе",
+      "transcription": "kāfēi"
+    },
+    {
+      "lesson": 1,
+      "id": "26",
+      "unknownText": "弟弟",
+      "translation": "младший брат",
+      "transcription": "dìdi"
+    },
+    {
+      "lesson": 1,
+      "id": "27",
+      "unknownText": "她",
+      "translation": "она",
+      "transcription": "tā"
+    },
+    {
+      "lesson": 3,
+      "id": "28",
+      "unknownText": "是",
+      "translation": "быть",
+      "transcription": "shì"
+    },
+    {
+      "lesson": 3,
+      "id": "29",
+      "unknownText": "哪",
+      "translation": "какой из",
+      "transcription": "nǎ"
+    },
+    {
+      "lesson": 3,
+      "id": "30",
+      "unknownText": "国",
+      "translation": "страна, государство",
+      "transcription": "guó"
+    },
+    {
+      "lesson": 3,
+      "id": "31",
+      "unknownText": "人",
+      "translation": "человек",
+      "transcription": "rén"
+    },
+    {
+      "lesson": 3,
+      "id": "32",
+      "unknownText": "那",
+      "translation": "тот",
+      "transcription": "nà"
+    },
+    {
+      "lesson": 3,
+      "id": "33",
+      "unknownText": "谁",
+      "translation": "кто",
+      "transcription": "shéi"
+    },
+    {
+      "lesson": 3,
+      "id": "34",
+      "unknownText": "老师",
+      "translation": "учитель",
+      "transcription": "lǎoshī"
+    },
+    {
+      "lesson": 3,
+      "id": "35",
+      "unknownText": "中国",
+      "translation": "Китай",
+      "transcription": "zhōngguó"
+    },
+    {
+      "lesson": 3,
+      "id": "36",
+      "unknownText": "您",
+      "translation": "",
+      "transcription": "nín"
+    },
+    {
+      "lesson": 3,
+      "id": "37",
+      "unknownText": "这",
+      "translation": "",
+      "transcription": "zhè"
+    },
+    {
+      "lesson": 3,
+      "id": "38",
+      "unknownText": "外语",
+      "translation": "",
+      "transcription": "wàiyǔ"
+    },
+    {
+      "lesson": 3,
+      "id": "39",
+      "unknownText": "医生",
+      "translation": "",
+      "transcription": "yīshēng"
+    },
+    {
+      "lesson": 3,
+      "id": "40",
+      "unknownText": "奶奶",
+      "translation": "",
+      "transcription": "nǎinai"
+    },
+    {
+      "lesson": 3,
+      "id": "41",
+      "unknownText": "外婆",
+      "translation": "",
+      "transcription": "wàipó"
+    },
+    {
+      "lesson": 3,
+      "id": "42",
+      "unknownText": "乌克兰",
+      "translation": "",
+      "transcription": "wūkèlán"
+    },
+    {
+      "lesson": 3,
+      "id": "43",
+      "unknownText": "汉语",
+      "translation": "",
+      "transcription": "hanyu"
+    },
+    {
+      "lesson": 3,
+      "id": "44",
+      "unknownText": "乌克兰语",
+      "translation": "",
+      "transcription": "wukelanyu"
+    },
+    {
+      "lesson": 3,
+      "id": "45",
+      "unknownText": "中文",
+      "translation": "",
+      "transcription": "zhongwen"
+    },
+    {
+      "lesson": 3,
+      "id": "46",
+      "unknownText": "程序员",
+      "translation": "",
+      "transcription": "chéngxùyuán"
+    }
+  ],
+  "template": {
+    "lesson": 0,
+    "id": "",
+    "unknownText": "",
+    "translation": "",
+    "transcription": ""
+  }
+}

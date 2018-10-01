@@ -21,17 +21,26 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
     private final int MY_PERMISSIONS_REQUEST_READ_STORAGE = 6576;
     private CardDataList cardsCollection;
     private int cardIndex = 0;
+    private CardState cardState = CardState.FOREIGN;
+    private TextView foreignWord;
+    private TextView translattion;
+    private TextView transcription;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        foreignWord = findViewById(R.id.unKnownText);
+        translattion = findViewById(R.id.translationText);
+        transcription = findViewById(R.id.transcriptionText);
+
         initCards();
     }
 
@@ -90,19 +99,62 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void updateCard(){
+        hideAllWords();
         if(cardIndex >= 0 && cardIndex < cardsCollection.getCards().size()){
-            TextView unknownText = findViewById(R.id.unKnownText);
-            unknownText.setText(cardsCollection.getCards().get(cardIndex).getUnknownText());
+            switch (cardState){
+                case FOREIGN:
+                    foreignWord.setVisibility(View.VISIBLE);
+                    break;
+                case TRANSLATE:
+                    foreignWord.setVisibility(View.VISIBLE);
+                    translattion.setVisibility(View.VISIBLE);
+                    break;
+                case TRANSCRIPTION:
+                    foreignWord.setVisibility(View.VISIBLE);
+                    transcription.setVisibility(View.VISIBLE);
+                    break;
+            }
+            foreignWord.setText(cardsCollection.getCards().get(cardIndex).getUnknownText());
+            translattion.setText(cardsCollection.getCards().get(cardIndex).getTranslation());
+            transcription.setText(cardsCollection.getCards().get(cardIndex).getTranscription());
         }
     }
 
+    private void hideAllWords(){
+        foreignWord.setVisibility(View.INVISIBLE);
+        translattion.setVisibility(View.INVISIBLE);
+        transcription.setVisibility(View.INVISIBLE);
+    }
+
     public void onCardClick(View view) {
-        cardIndex++;
+        switch (cardState){
+            case FOREIGN:
+                cardState = CardState.TRANSCRIPTION;
+                break;
+            case TRANSCRIPTION:
+                cardState = CardState.TRANSLATE;
+                break;
+            case TRANSLATE:
+                cardState = CardState.FOREIGN;
+                break;
+        }
+        updateCard();
+    }
+
+    private void moveToNextCard(){
+        cardState = CardState.FOREIGN;
+        Random rand = new Random();
+
+        cardIndex = rand.nextInt(cardsCollection.getCards().size());
         if(cardIndex >= cardsCollection.getCards().size()){
             Toast.makeText(this, "End of cards", Toast.LENGTH_LONG).show();
             cardIndex = -1;
         } else {
             updateCard();
         }
+    }
+
+    public void onNext(View view) {
+        moveToNextCard();
     }
 }
