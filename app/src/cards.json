@@ -256,79 +256,180 @@
       "lesson": 3,
       "id": "36",
       "unknownText": "您",
-      "translation": "",
+      "translation": "Вы (вежливое)",
       "transcription": "nín"
     },
     {
       "lesson": 3,
       "id": "37",
       "unknownText": "这",
-      "translation": "",
+      "translation": "этот",
       "transcription": "zhè"
     },
     {
       "lesson": 3,
       "id": "38",
       "unknownText": "外语",
-      "translation": "",
+      "translation": "иностранный язык",
       "transcription": "wàiyǔ"
     },
     {
       "lesson": 3,
       "id": "39",
       "unknownText": "医生",
-      "translation": "",
+      "translation": "врач",
       "transcription": "yīshēng"
     },
     {
       "lesson": 3,
       "id": "40",
       "unknownText": "奶奶",
-      "translation": "",
+      "translation": "бабушка по отцу",
       "transcription": "nǎinai"
     },
     {
       "lesson": 3,
       "id": "41",
       "unknownText": "外婆",
-      "translation": "",
+      "translation": "бабушка по матери",
       "transcription": "wàipó"
     },
     {
       "lesson": 3,
       "id": "42",
       "unknownText": "乌克兰",
-      "translation": "",
+      "translation": "Украина",
       "transcription": "wūkèlán"
     },
     {
       "lesson": 3,
       "id": "43",
       "unknownText": "汉语",
-      "translation": "",
-      "transcription": "hanyu"
+      "translation": "Китайский язык (язык Ханов)",
+      "transcription": "hànyǔ"
     },
     {
       "lesson": 3,
       "id": "44",
       "unknownText": "乌克兰语",
-      "translation": "",
-      "transcription": "wukelanyu"
+      "translation": "украинский язык",
+      "transcription": "wūkèlányǔ"
     },
     {
       "lesson": 3,
       "id": "45",
       "unknownText": "中文",
-      "translation": "",
-      "transcription": "zhongwen"
+      "translation": "Китайский язык (литературный)",
+      "transcription": "zhōngwén"
     },
     {
       "lesson": 3,
       "id": "46",
       "unknownText": "程序员",
-      "translation": "",
+      "translation": "программист",
       "transcription": "chéngxùyuán"
+    },
+    {
+      "lesson": 3,
+      "id": "47",
+      "unknownText": "工人",
+      "translation": "рабочий",
+      "transcription": "gōngrén"
+    },
+    {
+      "lesson": 3,
+      "id": "48",
+      "unknownText": "商人",
+      "translation": "бизнесмен",
+      "transcription": "shāngrén"
+    },
+    {
+      "lesson": 3,
+      "id": "49",
+      "unknownText": "律师",
+      "translation": "юрист",
+      "transcription": "lǜshī"
+    },
+    {
+      "lesson": 3,
+      "id": "50",
+      "unknownText": "干部",
+      "translation": "кадровый работник",
+      "transcription": "gànbu"
+    },
+    {
+      "lesson": 3,
+      "id": "51",
+      "unknownText": "农民",
+      "translation": "крестьянин",
+      "transcription": "nóngmín"
+    },
+    {
+      "lesson": 3,
+      "id": "52",
+      "unknownText": "英国",
+      "translation": "Англия",
+      "transcription": "yīngguó"
+    },
+    {
+      "lesson": 3,
+      "id": "53",
+      "unknownText": "德国",
+      "translation": "Германия",
+      "transcription": "déguó"
+    },
+    {
+      "lesson": 3,
+      "id": "54",
+      "unknownText": "美国",
+      "translation": "Америка",
+      "transcription": "měiguó"
+    },
+    {
+      "lesson": 3,
+      "id": "55",
+      "unknownText": "法国",
+      "translation": "Франция",
+      "transcription": "fǎguó"
+    },
+    {
+      "lesson": 3,
+      "id": "56",
+      "unknownText": "日本",
+      "translation": "Япония",
+      "transcription": "rìběn"
     }
+  ],
+  "phrases": [
+    {
+      "lesson": 4,
+      "id": "1",
+      "unknownText": "我很高兴认识你",
+      "translation": "Я очень рад познакомиться с тобой",
+      "transcription": "wǒ hěn gāoxìng rènshi nǐ"
+    },
+    {
+      "lesson": 4,
+      "id": "2",
+      "unknownText": "我认识你很高兴",
+      "translation": "Я познакомиться с тобой очень рад ",
+      "transcription": "wǒ rènshi nǐ hěn gāoxìng"
+    },
+    {
+      "lesson": 4,
+      "id": "3",
+      "unknownText": "可以进来马",
+      "translation": "",
+      "transcription": "kěyǐ jìnlái mǎ"
+    },
+    {
+      "lesson": 4,
+      "id": "4",
+      "unknownText": "可以进去马",
+      "translation": "",
+      "transcription": "kěyǐ jìnqù mǎ"
+    }
+
   ],
   "template": {
     "lesson": 0,
