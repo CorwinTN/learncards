@@ -8,7 +8,14 @@ public class CardDataList {
     @Expose
     private List<CardData> cards;
 
+    @Expose
+    private List<CardData> phrases;
+
     public List<CardData> getCards() {
         return cards;
+    }
+
+    public List<CardData> getPhrases() {
+        return phrases;
     }
 }

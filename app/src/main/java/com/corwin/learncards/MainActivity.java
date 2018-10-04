@@ -4,12 +4,15 @@ import android.Manifest;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Environment;
-import android.os.Handler;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.widget.TextViewCompat;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -21,6 +24,9 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
@@ -30,21 +36,85 @@ public class MainActivity extends AppCompatActivity {
     private int cardIndex = 0;
     private CardState cardState = CardState.FOREIGN;
     private TextView foreignWord;
-    private TextView translattion;
+    private TextView translation;
     private TextView transcription;
+    private TextView currendMode;
+    private TextView cardsCount;
+    private TextView cardsSourceInfo;
+    private LearnMode learnMode = LearnMode.SHOW_FOREIGN;
+    private CardsSource cardsSource = CardsSource.CARDS;
+    private List<CardData> currentCards = new ArrayList<>();
+    private boolean currentState = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         foreignWord = findViewById(R.id.unKnownText);
-        translattion = findViewById(R.id.translationText);
+        translation = findViewById(R.id.translationText);
         transcription = findViewById(R.id.transcriptionText);
 
+        currendMode = findViewById(R.id.current_mode);
+        cardsCount = findViewById(R.id.cards_count);
+        cardsSourceInfo = findViewById(R.id.cards_source);
+
+
         initCards();
+        setSupportActionBar((Toolbar) findViewById(R.id.bottom_app_bar));
+        updateModeInfo();
     }
 
-    private void initCards(){
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        return super.onPrepareOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.app_bar_mode_1:
+                learnMode = LearnMode.SHOW_FOREIGN;
+                break;
+            case R.id.app_bar_mode_2:
+                learnMode = LearnMode.SHOW_TRANSCRIPTION;
+                break;
+            case R.id.app_bar_mode_3:
+                learnMode = LearnMode.SHOW_TRANSLATION;
+                break;
+            case R.id.app_bar_source:
+                switch (cardsSource) {
+                    case CARDS:
+                        cardsSource = CardsSource.PHRASES;
+                        break;
+                    case PHRASES:
+                        cardsSource = CardsSource.CARDS;
+                        break;
+                }
+
+                break;
+        }
+        updateModeInfo();
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public boolean onContextItemSelected(MenuItem item) {
+        return super.onContextItemSelected(item);
+    }
+
+    //    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        getMenuInflater().inflate(R.menu.menu_main, menu);
+//        return true;
+//    }
+
+    private void initCards() {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
             loadCards();
         } else {
@@ -72,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void loadCards(){
+    private void loadCards() {
         File sdcard = Environment.getExternalStorageDirectory();
         File file = new File(sdcard, "LearnCards/cards.json");
         StringBuilder text = new StringBuilder();
@@ -98,63 +168,154 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void updateCard(){
+    private void updateCard() {
         hideAllWords();
-        if(cardIndex >= 0 && cardIndex < cardsCollection.getCards().size()){
-            switch (cardState){
+        if (cardIndex >= 0 && cardIndex < currentCards.size()) {
+            switch (cardState) {
                 case FOREIGN:
                     foreignWord.setVisibility(View.VISIBLE);
                     break;
                 case TRANSLATE:
-                    foreignWord.setVisibility(View.VISIBLE);
-                    translattion.setVisibility(View.VISIBLE);
+//                    foreignWord.setVisibility(View.VISIBLE);
+                    translation.setVisibility(View.VISIBLE);
                     break;
                 case TRANSCRIPTION:
-                    foreignWord.setVisibility(View.VISIBLE);
+//                    foreignWord.setVisibility(View.VISIBLE);
                     transcription.setVisibility(View.VISIBLE);
                     break;
             }
-            foreignWord.setText(cardsCollection.getCards().get(cardIndex).getUnknownText());
-            translattion.setText(cardsCollection.getCards().get(cardIndex).getTranslation());
-            transcription.setText(cardsCollection.getCards().get(cardIndex).getTranscription());
+            foreignWord.setText(currentCards.get(cardIndex).getUnknownText());
+            translation.setText(currentCards.get(cardIndex).getTranslation());
+            transcription.setText(currentCards.get(cardIndex).getTranscription());
         }
     }
 
-    private void hideAllWords(){
+    private void hideAllWords() {
         foreignWord.setVisibility(View.INVISIBLE);
-        translattion.setVisibility(View.INVISIBLE);
+        translation.setVisibility(View.INVISIBLE);
         transcription.setVisibility(View.INVISIBLE);
     }
 
     public void onCardClick(View view) {
-        switch (cardState){
-            case FOREIGN:
-                cardState = CardState.TRANSCRIPTION;
+        switch (learnMode) {
+            case SHOW_FOREIGN:
+                switch (cardState) {
+                    case FOREIGN:
+                        cardState = CardState.TRANSCRIPTION;
+                        break;
+                    case TRANSCRIPTION:
+                        cardState = CardState.TRANSLATE;
+                        break;
+                    case TRANSLATE:
+                        cardState = CardState.FOREIGN;
+                        break;
+                }
                 break;
-            case TRANSCRIPTION:
-                cardState = CardState.TRANSLATE;
+            case SHOW_TRANSLATION:
+                switch (cardState) {
+                    case FOREIGN:
+                        cardState = CardState.TRANSCRIPTION;
+                        break;
+                    case TRANSCRIPTION:
+                        cardState = CardState.TRANSLATE;
+                        break;
+                    case TRANSLATE:
+                        cardState = CardState.FOREIGN;
+                        break;
+                }
                 break;
-            case TRANSLATE:
-                cardState = CardState.FOREIGN;
+            case SHOW_TRANSCRIPTION:
+                switch (cardState) {
+                    case FOREIGN:
+                        cardState = CardState.TRANSLATE;
+                        break;
+                    case TRANSCRIPTION:
+                        cardState = CardState.FOREIGN;
+                        break;
+                    case TRANSLATE:
+                        cardState = CardState.TRANSCRIPTION;
+                        break;
+                }
                 break;
         }
         updateCard();
     }
 
-    private void moveToNextCard(){
-        cardState = CardState.FOREIGN;
-        Random rand = new Random();
-
-        cardIndex = rand.nextInt(cardsCollection.getCards().size());
-        if(cardIndex >= cardsCollection.getCards().size()){
+    private void moveToNextCard() {
+        cardState = getDefaultCardState();
+        cardIndex++;
+        if (cardIndex >= currentCards.size()) {
             Toast.makeText(this, "End of cards", Toast.LENGTH_LONG).show();
             cardIndex = -1;
+            currentState = false;
         } else {
             updateCard();
         }
     }
 
     public void onNext(View view) {
-        moveToNextCard();
+        if (currentState) {
+            moveToNextCard();
+        } else {
+            Collections.shuffle(currentCards);
+            currentState = true;
+            cardIndex = 0;
+            updateCard();
+        }
+    }
+
+    private CardState getDefaultCardState() {
+        switch (learnMode) {
+            case SHOW_FOREIGN:
+                return CardState.FOREIGN;
+            case SHOW_TRANSLATION:
+                return CardState.TRANSLATE;
+            case SHOW_TRANSCRIPTION:
+                return CardState.TRANSCRIPTION;
+
+        }
+        return null;
+    }
+
+    private void updateModeInfo() {
+        updateLearnModeInfo();
+        updateCardsSourceInfo();
+    }
+
+    private void updateCardsCountInfo() {
+        cardsCount.setText("Cards count: " + currentCards.size());
+    }
+
+    private void updateCardsSourceInfo() {
+        currentCards.clear();
+        String modeName = "";
+        switch (cardsSource) {
+            case CARDS:
+                modeName = "words";
+                currentCards.addAll(cardsCollection.getCards());
+                break;
+            case PHRASES:
+                currentCards.addAll(cardsCollection.getPhrases());
+                modeName = "phrases";
+                break;
+        }
+        cardsSourceInfo.setText("Cards source: " + modeName);
+        updateCardsCountInfo();
+    }
+
+    private void updateLearnModeInfo() {
+        String modeName = "";
+        switch (learnMode) {
+            case SHOW_TRANSCRIPTION:
+                modeName = "transcription first";
+                break;
+            case SHOW_TRANSLATION:
+                modeName = "translation first";
+                break;
+            case SHOW_FOREIGN:
+                modeName = "foreign first";
+                break;
+        }
+        currendMode.setText("Learn mode: " + modeName);
     }
 }

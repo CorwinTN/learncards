@@ -8,88 +8,140 @@
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="54dp"
-        app:cardCornerRadius="24dp" />
 
-    <android.support.v7.widget.CardView
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="54dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="24dp"
-        android:layout_marginTop="24dp"
-        android:onClick="onCardClick"
-        app:cardCornerRadius="24dp">
+        android:layout_height="match_parent">
 
-        <LinearLayout
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+             <LinearLayout
+                 android:id="@+id/mode_info"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:background="#fff"
+                 android:padding="8dp">
+
+                 <TextView
+                     style="@style/InfoText"
+                     android:id="@+id/current_mode"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content" />
+
+                 <TextView
+                     style="@style/InfoText"
+                     android:id="@+id/cards_count"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content" />
+
+                 <TextView
+                     style="@style/InfoText"
+                     android:id="@+id/cards_source"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content" />
+
+
+             </LinearLayout>
+             <androidx.cardview.widget.CardView
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_below="@id/mode_info"
+                 android:layout_marginLeft="24dp"
+                 android:layout_marginTop="24dp"
+                 android:layout_marginRight="24dp"
+                 android:layout_marginBottom="90dp"
+                 android:onClick="onCardClick"
+                 app:cardCornerRadius="24dp">
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:orientation="vertical">
+
+                     <androidx.appcompat.widget.AppCompatTextView
+                         android:id="@+id/unKnownText"
+                         android:layout_width="match_parent"
+                         android:layout_height="0dp"
+                         android:layout_gravity="center"
+                         android:layout_weight="1"
+                         android:clickable="false"
+                         android:gravity="center"
+                         android:lines="1"
+                         android:maxLines="1"
+                         android:text="谢尔盖"
+                         app:autoSizeMaxTextSize="200sp"
+                         app:autoSizeMinTextSize="12sp"
+                         app:autoSizeStepGranularity="2sp"
+                         app:autoSizeTextType="uniform" />
+
+                     <androidx.appcompat.widget.AppCompatTextView
+                         android:id="@+id/transcriptionText"
+                         android:layout_width="match_parent"
+                         android:layout_height="100dp"
+                         android:layout_gravity="center"
+                         android:clickable="false"
+                         android:gravity="center"
+                         android:lines="1"
+                         android:maxLines="1"
+                         android:text="谢尔盖"
+                         app:autoSizeMaxTextSize="100sp"
+                         app:autoSizeMinTextSize="12sp"
+                         app:autoSizeStepGranularity="2sp"
+                         app:autoSizeTextType="uniform" />
+
+
+                     <androidx.appcompat.widget.AppCompatTextView
+                         android:id="@+id/translationText"
+                         android:layout_width="match_parent"
+                         android:layout_height="100dp"
+                         android:layout_gravity="center"
+                         android:clickable="false"
+                         android:gravity="center"
+                         android:lines="1"
+                         android:maxLines="1"
+                         android:text="谢尔盖"
+                         app:autoSizeMaxTextSize="100sp"
+                         app:autoSizeMinTextSize="12sp"
+                         app:autoSizeStepGranularity="2sp"
+                         app:autoSizeTextType="uniform" />
+
+
+                 </LinearLayout>
+
+
+             </androidx.cardview.widget.CardView>
+
+         </RelativeLayout>
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottom_app_bar"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:backgroundTint="@color/colorPrimary"
+            app:fabAlignmentMode="center"
+            app:navigationIcon="@drawable/ic_menu" />
 
-            <android.support.v7.widget.AppCompatTextView
-                android:id="@+id/unKnownText"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:clickable="false"
-                android:gravity="center"
-                android:lines="1"
-                android:maxLines="1"
-                android:text="谢尔盖"
-                app:autoSizeMaxTextSize="200sp"
-                app:autoSizeMinTextSize="12sp"
-                app:autoSizeStepGranularity="2sp"
-                app:autoSizeTextType="uniform" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_anchor="@id/bottom_app_bar"
+            android:src="@drawable/ic_play"
+            android:paddingLeft="10dp"
+            android:onClick="onNext"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-            <android.support.v7.widget.AppCompatTextView
-                android:id="@+id/transcriptionText"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:clickable="false"
-                android:gravity="center"
-                android:lines="1"
-                android:maxLines="1"
-                android:text="谢尔盖"
-                app:autoSizeMaxTextSize="100sp"
-                app:autoSizeMinTextSize="12sp"
-                app:autoSizeStepGranularity="2sp"
-                app:autoSizeTextType="uniform" />
-
-
-            <android.support.v7.widget.AppCompatTextView
-                android:id="@+id/translationText"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:clickable="false"
-                android:gravity="center"
-                android:lines="1"
-                android:maxLines="1"
-                android:text="谢尔盖"
-                app:autoSizeMaxTextSize="100sp"
-                app:autoSizeMinTextSize="12sp"
-                app:autoSizeStepGranularity="2sp"
-                app:autoSizeTextType="uniform" />
-
-
-        </LinearLayout>
-
-
-    </android.support.v7.widget.CardView>
-
-    <android.support.design.widget.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|right"
-        android:layout_marginBottom="8dp"
-        android:layout_marginRight="8dp"
-        android:onClick="onNext"
-        android:src="@android:drawable/arrow_down_float" />
+    <!--<com.google.android.material.floatingactionbutton.FloatingActionButton-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="bottom|right"-->
+    <!--android:layout_marginBottom="8dp"-->
+    <!--android:layout_marginRight="8dp"-->
+    <!--android:onClick="onNext"/>-->
 
 
 </FrameLayout>
