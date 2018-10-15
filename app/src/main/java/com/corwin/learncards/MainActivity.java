@@ -27,7 +27,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -38,11 +37,11 @@ public class MainActivity extends AppCompatActivity {
     private TextView foreignWord;
     private TextView translation;
     private TextView transcription;
-    private TextView currendMode;
+    private TextView currentMode;
     private TextView cardsCount;
     private TextView cardsSourceInfo;
     private LearnMode learnMode = LearnMode.SHOW_FOREIGN;
-    private CardsSource cardsSource = CardsSource.CARDS;
+    private CardsSource cardsSource = CardsSource.ALL_CARDS;
     private List<CardData> currentCards = new ArrayList<>();
     private boolean currentState = false;
 
@@ -54,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         translation = findViewById(R.id.translationText);
         transcription = findViewById(R.id.transcriptionText);
 
-        currendMode = findViewById(R.id.current_mode);
+        currentMode = findViewById(R.id.current_mode);
         cardsCount = findViewById(R.id.cards_count);
         cardsSourceInfo = findViewById(R.id.cards_source);
 
@@ -81,6 +80,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.app_bar_mode_1:
                 learnMode = LearnMode.SHOW_FOREIGN;
                 break;
+            case android.R.id.home:
+                BottomNavigationDrawerFragment bottomNavDrawerFragment = new BottomNavigationDrawerFragment();
+                bottomNavDrawerFragment.show(getSupportFragmentManager(), bottomNavDrawerFragment.getClass().getSimpleName());
+                break;
             case R.id.app_bar_mode_2:
                 learnMode = LearnMode.SHOW_TRANSCRIPTION;
                 break;
@@ -89,11 +92,11 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.app_bar_source:
                 switch (cardsSource) {
-                    case CARDS:
-                        cardsSource = CardsSource.PHRASES;
+                    case ALL_CARDS:
+                        cardsSource = CardsSource.ALL_PHRASES;
                         break;
-                    case PHRASES:
-                        cardsSource = CardsSource.CARDS;
+                    case ALL_PHRASES:
+                        cardsSource = CardsSource.ALL_CARDS;
                         break;
                 }
 
@@ -290,11 +293,11 @@ public class MainActivity extends AppCompatActivity {
         currentCards.clear();
         String modeName = "";
         switch (cardsSource) {
-            case CARDS:
+            case ALL_CARDS:
                 modeName = "words";
                 currentCards.addAll(cardsCollection.getCards());
                 break;
-            case PHRASES:
+            case ALL_PHRASES:
                 currentCards.addAll(cardsCollection.getPhrases());
                 modeName = "phrases";
                 break;
@@ -316,6 +319,10 @@ public class MainActivity extends AppCompatActivity {
                 modeName = "foreign first";
                 break;
         }
-        currendMode.setText("Learn mode: " + modeName);
+        currentMode.setText("Learn mode: " + modeName);
+    }
+
+    public CardDataList getCardsCollection(){
+        return cardsCollection;
     }
 }

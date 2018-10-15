@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/choose_lesson"
+            android:icon="@drawable/ic_play"
+            android:title="Choose lessons" />
+        <!--<item-->
+            <!--android:id="@+id/nav2"-->
+            <!--android:icon="@drawable/ic_dots"-->
+            <!--android:title="2" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav3"-->
+            <!--android:icon="@drawable/ic_menu"-->
+            <!--android:title="3" />-->
+    </group>
+</menu>
