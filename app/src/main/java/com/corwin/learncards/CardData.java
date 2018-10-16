@@ -3,6 +3,10 @@ package com.corwin.learncards;
 import com.google.gson.annotations.Expose;
 
 public class CardData {
+
+    @Expose
+    private Integer lesson;
+
     @Expose
     private String unknownText;
     @Expose
@@ -20,5 +24,9 @@ public class CardData {
 
     public String getTranscription() {
         return transcription;
+    }
+
+    public Integer getLesson() {
+        return lesson;
     }
 }
