@@ -1,10 +1,12 @@
 package com.corwin.learncards;
 
 import android.Manifest;
+import android.content.DialogInterface;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Environment;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
@@ -14,6 +16,10 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -26,7 +32,10 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,7 +51,13 @@ public class MainActivity extends AppCompatActivity {
     private TextView cardsSourceInfo;
     private LearnMode learnMode = LearnMode.SHOW_FOREIGN;
     private CardsSource cardsSource = CardsSource.ALL_CARDS;
-    private List<CardData> currentCards = new ArrayList<>();
+    private List<CardData> currentCards = new CopyOnWriteArrayList<>();
+
+    private Map<Integer, Integer> lessons = new HashMap<>();
+    private List<Integer> presentedLessens = new ArrayList<>();
+    private boolean checkedItems[];
+    private List<Integer> selectedLessons = new ArrayList<>();
+
     private boolean currentState = false;
 
     @Override
@@ -111,12 +126,6 @@ public class MainActivity extends AppCompatActivity {
         return super.onContextItemSelected(item);
     }
 
-    //    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        getMenuInflater().inflate(R.menu.menu_main, menu);
-//        return true;
-//    }
-
     private void initCards() {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
             loadCards();
@@ -129,7 +138,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-
 
     @Override
     public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
@@ -165,6 +173,14 @@ public class MainActivity extends AppCompatActivity {
         }
         Gson gson = new GsonBuilder().create();
         cardsCollection = gson.fromJson(text.toString(), CardDataList.class);
+
+        for (CardData card : cardsCollection.getCards()) {
+            addToLessonsList(card);
+        }
+        for (CardData card : cardsCollection.getPhrases()) {
+            addToLessonsList(card);
+        }
+        checkedItems = new boolean[lessons.size()];
 
         updateCard();
         Log.d("", "");
@@ -290,16 +306,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void updateCardsSourceInfo() {
-        currentCards.clear();
         String modeName = "";
         switch (cardsSource) {
             case ALL_CARDS:
+                currentCards.clear();
                 modeName = "words";
                 currentCards.addAll(cardsCollection.getCards());
                 break;
             case ALL_PHRASES:
+                currentCards.clear();
                 currentCards.addAll(cardsCollection.getPhrases());
                 modeName = "phrases";
+                break;
+            case SELECTED_CARDS:
+                modeName = "Selected cards";
                 break;
         }
         cardsSourceInfo.setText("Cards source: " + modeName);
@@ -325,4 +345,102 @@ public class MainActivity extends AppCompatActivity {
     public CardDataList getCardsCollection(){
         return cardsCollection;
     }
+
+
+    public void onOpenLEssonsSelection(){
+        List<String> items = new ArrayList<>();
+        String[] stringItems = new String[lessons.size()];
+        presentedLessens.clear();
+        for (Integer lesson : lessons.keySet()) {
+            items.add(lesson.toString() + " - " + lessons.get(lesson) + " cards");
+            presentedLessens.add(lesson);
+        }
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Choose lessons");
+        builder.setMultiChoiceItems(items.toArray(stringItems), checkedItems, new DialogInterface.OnMultiChoiceClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which, boolean isChecked) {
+                checkedItems[which] = isChecked;
+            }
+        });
+        builder.setPositiveButton("Ok", onLessonsSelectedListener);
+        builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.dismiss();
+            }
+        });
+        builder.setNeutralButton("ClearAll", null);
+        builder.setCancelable(false);
+        final AlertDialog dialog = builder.create();
+        builder.setAdapter(new ArrayAdapter<CharSequence>(this, 0, android.R.id.text1, stringItems) {
+            @Override
+            public View getView(int position, View convertView, ViewGroup parent) {
+                View view = super.getView(position, convertView, parent);
+                if (checkedItems != null) {
+                    ((ListView) parent).setItemChecked(position, checkedItems[position]);
+                }
+                return view;
+            }
+        }, null);
+        dialog.setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialogInterface) {
+                Button button = dialog.getButton(AlertDialog.BUTTON_NEUTRAL);
+                button.setOnClickListener(new View.OnClickListener() {
+
+                    @Override
+                    public void onClick(View view) {
+                        for (int i = 0; i < checkedItems.length; i++) {
+                            checkedItems[i] = false;
+                            dialog.getListView().setItemChecked(i, false);
+                        }
+                    }
+                });
+            }
+        });
+        dialog.show();
+
+    }
+
+
+
+
+    public void setSelectedLessons(List<Integer> selectedLessons){
+        cardsSource = CardsSource.SELECTED_CARDS;
+        CardDataList cardDataList = getCardsCollection();
+        currentCards.clear();
+        currentCards.addAll(cardDataList.getCards());
+        currentCards.addAll(cardDataList.getPhrases());
+        for(CardData card:currentCards){
+            if(!selectedLessons.contains(card.getLesson())){
+                currentCards.remove(card);
+            }
+        }
+        updateCardsSourceInfo();
+    }
+
+    public DialogInterface.OnClickListener onLessonsSelectedListener = new DialogInterface.OnClickListener() {
+        @Override
+        public void onClick(DialogInterface dialogInterface, int i) {
+            selectedLessons.clear();
+            for(int checkIndex = 0; checkIndex < checkedItems.length; checkIndex++){
+                if(checkedItems[checkIndex]){
+                    selectedLessons.add(presentedLessens.get(checkIndex));
+                }
+            }
+            setSelectedLessons(selectedLessons);
+            dialogInterface.dismiss();
+        }
+    };
+
+    private void addToLessonsList(CardData cardData) {
+        Integer lesson = cardData.getLesson();
+        if (!lessons.containsKey(lesson)) {
+            lessons.put(cardData.getLesson(), 0);
+        }
+        lessons.put(lesson, lessons.get(lesson) + 1);
+    }
+
+
 }
