@@ -398,6 +398,174 @@
       "unknownText": "日本",
       "translation": "Япония",
       "transcription": "rìběn"
+    },
+    {
+      "lesson": 4,
+      "id": "57",
+      "unknownText": "认识",
+      "translation": "знакомиться",
+      "transcription": "rènshi"
+    },
+    {
+      "lesson": 4,
+      "id": "58",
+      "unknownText": "高兴",
+      "translation": "рад, радостный",
+      "transcription": "gāoxìng"
+    },
+    {
+      "lesson": 4,
+      "id": "59",
+      "unknownText": "高",
+      "translation": "высокий",
+      "transcription": "gāo"
+    },
+    {
+      "lesson": 4,
+      "id": "60",
+      "unknownText": "可以",
+      "translation": "мочь, иметь разрешение",
+      "transcription": "kěyǐ"
+    },
+    {
+      "lesson": 4,
+      "id": "61",
+      "unknownText": "进来",
+      "translation": "входить, войти",
+      "transcription": "jìnlái"
+    },
+    {
+      "lesson": 4,
+      "id": "62",
+      "unknownText": "进",
+      "translation": "внутрь",
+      "transcription": "jìn"
+    },
+    {
+      "lesson": 4,
+      "id": "63",
+      "unknownText": "来",
+      "translation": "приходить, идти",
+      "transcription": "lái"
+    },
+    {
+      "lesson": 4,
+      "id": "64",
+      "unknownText": "请",
+      "translation": "пригласить, пожалуйста",
+      "transcription": "qǐng"
+    },
+    {
+      "lesson": 4,
+      "id": "65",
+      "unknownText": "记者",
+      "translation": "журналист",
+      "transcription": "jìzhě"
+    },
+    {
+      "lesson": 4,
+      "id": "66",
+      "unknownText": "请问",
+      "translation": "Скажите пожалуйста",
+      "transcription": ""
+    },
+    {
+      "lesson": 4,
+      "id": "67",
+      "unknownText": "问",
+      "translation": "спросить",
+      "transcription": ""
+    },
+    {
+      "lesson": 4,
+      "id": "68",
+      "unknownText": "贵姓",
+      "translation": "как ваша фамилия",
+      "transcription": ""
+    },
+    {
+      "lesson": 4,
+      "id": "69",
+      "unknownText": "姓",
+      "translation": "фамилия",
+      "transcription": ""
+    },
+    {
+      "lesson": 4,
+      "id": "70",
+      "unknownText": "叫",
+      "translation": "зовут",
+      "transcription": ""
+    },
+    {
+      "lesson": 4,
+      "id": "71",
+      "unknownText": "先生",
+      "translation": "господин",
+      "transcription": ""
+    },
+    {
+      "lesson": 4,
+      "id": "72",
+      "unknownText": "语言",
+      "translation": "язык, речь",
+      "transcription": ""
+    },
+    {
+      "lesson": 4,
+      "id": "73",
+      "unknownText": "学院",
+      "translation": "институт",
+      "transcription": ""
+    },
+    {
+      "lesson": 4,
+      "id": "74",
+      "unknownText": "学",
+      "translation": "учить, изучать",
+      "transcription": ""
+    },
+    {
+      "lesson": 4,
+      "id": "75",
+      "unknownText": "的",
+      "translation": "частица принадлежности",
+      "transcription": ""
+    },
+    {
+      "lesson": 4,
+      "id": "76",
+      "unknownText": "学生",
+      "translation": "студент",
+      "transcription": ""
+    },
+    {
+      "lesson": 4,
+      "id": "77",
+      "unknownText": "什么",
+      "translation": "что",
+      "transcription": ""
+    },
+    {
+      "lesson": 4,
+      "id": "78",
+      "unknownText": "学习",
+      "translation": "учить, изучать",
+      "transcription": ""
+    },
+    {
+      "lesson": 4,
+      "id": "79",
+      "unknownText": "加拿大",
+      "translation": "Канада",
+      "transcription": ""
+    },
+    {
+      "lesson": 4,
+      "id": "80",
+      "unknownText": "俄罗斯",
+      "translation": "Россия",
+      "transcription": ""
     }
   ],
   "phrases": [
