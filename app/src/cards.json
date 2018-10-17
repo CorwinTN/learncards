@@ -467,105 +467,371 @@
       "id": "66",
       "unknownText": "请问",
       "translation": "Скажите пожалуйста",
-      "transcription": ""
+      "transcription": "qǐngwèn"
     },
     {
       "lesson": 4,
       "id": "67",
       "unknownText": "问",
       "translation": "спросить",
-      "transcription": ""
+      "transcription": "wèn"
     },
     {
       "lesson": 4,
       "id": "68",
       "unknownText": "贵姓",
-      "translation": "как ваша фамилия",
-      "transcription": ""
+      "translation": "фамилия (вежливо)",
+      "transcription": "guìxìng"
     },
     {
       "lesson": 4,
       "id": "69",
       "unknownText": "姓",
       "translation": "фамилия",
-      "transcription": ""
+      "transcription": "xìng"
     },
     {
       "lesson": 4,
       "id": "70",
       "unknownText": "叫",
       "translation": "зовут",
-      "transcription": ""
+      "transcription": "jiào"
     },
     {
       "lesson": 4,
       "id": "71",
       "unknownText": "先生",
       "translation": "господин",
-      "transcription": ""
+      "transcription": "xiānsheng"
     },
     {
       "lesson": 4,
       "id": "72",
       "unknownText": "语言",
       "translation": "язык, речь",
-      "transcription": ""
+      "transcription": "yǔyán"
     },
     {
       "lesson": 4,
       "id": "73",
       "unknownText": "学院",
       "translation": "институт",
-      "transcription": ""
+      "transcription": "xuéyuàn"
     },
     {
       "lesson": 4,
       "id": "74",
       "unknownText": "学",
       "translation": "учить, изучать",
-      "transcription": ""
+      "transcription": "xué"
     },
     {
       "lesson": 4,
       "id": "75",
       "unknownText": "的",
       "translation": "частица принадлежности",
-      "transcription": ""
+      "transcription": "de"
     },
     {
       "lesson": 4,
       "id": "76",
       "unknownText": "学生",
       "translation": "студент",
-      "transcription": ""
+      "transcription": "xuésheng"
     },
     {
       "lesson": 4,
       "id": "77",
       "unknownText": "什么",
       "translation": "что",
-      "transcription": ""
+      "transcription": "shénme"
     },
     {
       "lesson": 4,
       "id": "78",
       "unknownText": "学习",
       "translation": "учить, изучать",
-      "transcription": ""
+      "transcription": "xuéxí"
     },
     {
       "lesson": 4,
       "id": "79",
       "unknownText": "加拿大",
       "translation": "Канада",
-      "transcription": ""
+      "transcription": "jiānádà"
     },
     {
       "lesson": 4,
       "id": "80",
       "unknownText": "俄罗斯",
       "translation": "Россия",
-      "transcription": ""
+      "transcription": "éluósī"
+    },
+    {
+      "lesson": 5,
+      "id": "81",
+      "unknownText": "餐厅",
+      "translation": "столовая",
+      "transcription": "cāntīng"
+    },
+    {
+      "lesson": 5,
+      "id": "82",
+      "unknownText": "在",
+      "translation": "быть, пребывать",
+      "transcription": "zài"
+    },
+    {
+      "lesson": 5,
+      "id": "83",
+      "unknownText": "哪儿",
+      "translation": "nǎr",
+      "transcription": "где, куда"
+    },
+    {
+      "lesson": 5,
+      "id": "84",
+      "unknownText": "宿舍",
+      "translation": "общежитие",
+      "transcription": "sùshè"
+    },
+    {
+      "lesson": 5,
+      "id": "85",
+      "unknownText": "坐",
+      "translation": "сидеть, садиться",
+      "transcription": "zuò"
+    },
+    {
+      "lesson": 5,
+      "id": "86",
+      "unknownText": "谢谢",
+      "translation": "спасибо",
+      "transcription": "xièxie"
+    },
+    {
+      "lesson": 5,
+      "id": "87",
+      "unknownText": "对不起",
+      "translation": "извините, пожалуйста",
+      "transcription": "duìbuqǐ"
+    },
+    {
+      "lesson": 5,
+      "id": "88",
+      "unknownText": "知道",
+      "translation": "знать",
+      "transcription": "zhīdào"
+    },
+    {
+      "lesson": 5,
+      "id": "89",
+      "unknownText": "没关系",
+      "translation": "ничего страшного",
+      "transcription": "méi guānxi"
+    },
+    {
+      "lesson": 5,
+      "id": "90",
+      "unknownText": "再见",
+      "translation": "до свидания",
+      "transcription": "zàijiàn"
+    },
+    {
+      "lesson": 5,
+      "id": "91",
+      "unknownText": "印度",
+      "translation": "Индия",
+      "transcription": "yìndù"
+    },
+    {
+      "lesson": 5,
+      "id": "92",
+      "unknownText": "再",
+      "translation": "снова, еще",
+      "transcription": "zài"
+    },
+    {
+      "lesson": 5,
+      "id": "93",
+      "unknownText": "小姐",
+      "translation": "мисс",
+      "transcription": "xiǎojiě"
+    },
+    {
+      "lesson": 5,
+      "id": "94",
+      "unknownText": "二",
+      "translation": "два",
+      "transcription": "èr"
+    },
+    {
+      "lesson": 5,
+      "id": "95",
+      "unknownText": "层",
+      "translation": "этаж",
+      "transcription": "céng"
+    },
+    {
+      "lesson": 5,
+      "id": "96",
+      "unknownText": "〇",
+      "translation": "ноль",
+      "transcription": "líng"
+    },
+    {
+      "lesson": 5,
+      "id": "97",
+      "unknownText": "四",
+      "translation": "четыре",
+      "transcription": "sì"
+    },
+    {
+      "lesson": 5,
+      "id": "98",
+      "unknownText": "号",
+      "translation": "номер",
+      "transcription": "hào"
+    },
+    {
+      "lesson": 5,
+      "id": "99",
+      "unknownText": "不用",
+      "translation": "не надо, не нужно",
+      "transcription": "bùyòng"
+    },
+    {
+      "lesson": 5,
+      "id": "100",
+      "unknownText": "这儿",
+      "translation": "здесь, тут",
+      "transcription": "zhèr"
+    },
+    {
+      "lesson": 5,
+      "id": "101",
+      "unknownText": "晚",
+      "translation": "поздний, поздно",
+      "transcription": "wǎn"
+    },
+    {
+      "lesson": 5,
+      "id": "102",
+      "unknownText": "了",
+      "translation": "частица прошедшего времени",
+      "transcription": "le"
+    },
+    {
+      "lesson": 5,
+      "id": "103",
+      "unknownText": "飞机",
+      "translation": "самолет",
+      "transcription": "fēijī"
+    },
+    {
+      "lesson": 5,
+      "id": "104",
+      "unknownText": "开车",
+      "translation": "вести машину",
+      "transcription": "kāichē"
+    },
+    {
+      "lesson": 5,
+      "id": "105",
+      "unknownText": "欢迎",
+      "translation": "добро пожаловать",
+      "transcription": "huānyíng"
+    },
+    {
+      "lesson": 5,
+      "id": "106",
+      "unknownText": "开始",
+      "translation": "начинать",
+      "transcription": "kāishǐ"
+    },
+    {
+      "lesson": 5,
+      "id": "107",
+      "unknownText": "工作",
+      "translation": "работа",
+      "transcription": "gōngzuò"
+    },
+    {
+      "lesson": 5,
+      "id": "108",
+      "unknownText": "商店",
+      "translation": "магазин",
+      "transcription": "shāngdiàn"
+    },
+    {
+      "lesson": 5,
+      "id": "109",
+      "unknownText": "休息",
+      "translation": "отдых",
+      "transcription": "xiūxi"
+    },
+    {
+      "lesson": 5,
+      "id": "110",
+      "unknownText": "妻子",
+      "translation": "жена",
+      "transcription": "qīzi"
+    },
+    {
+      "lesson": 5,
+      "id": "111",
+      "unknownText": "明天",
+      "translation": "завтра",
+      "transcription": "míngtiān"
+    },
+    {
+      "lesson": 5,
+      "id": "112",
+      "unknownText": "时间",
+      "translation": "время",
+      "transcription": "shíjiān"
+    },
+    {
+      "lesson": 5,
+      "id": "113",
+      "unknownText": "昨天",
+      "translation": "вчера",
+      "transcription": "zuótiān"
+    },
+    {
+      "lesson": 5,
+      "id": "114",
+      "unknownText": "啤酒",
+      "translation": "пиво",
+      "transcription": "píjiǔ"
+    },
+    {
+      "lesson": 5,
+      "id": "115",
+      "unknownText": "名字",
+      "translation": "имя человека",
+      "transcription": "míngzi"
+    },
+    {
+      "lesson": 5,
+      "id": "116",
+      "unknownText": "厕所",
+      "translation": "туалет",
+      "transcription": "cèsuǒ"
+    },
+    {
+      "lesson": 5,
+      "id": "117",
+      "unknownText": "医院",
+      "translation": "больница",
+      "transcription": "yīyuàn"
+    },
+    {
+      "lesson": 5,
+      "id": "118",
+      "unknownText": "埃及",
+      "translation": "Египет",
+      "transcription": "āijí"
     }
   ],
   "phrases": [
