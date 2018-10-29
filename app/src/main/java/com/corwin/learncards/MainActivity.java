@@ -49,6 +49,11 @@ public class MainActivity extends AppCompatActivity {
     private TextView currentMode;
     private TextView cardsCount;
     private TextView cardsSourceInfo;
+
+    private TextView cardsProgress;
+    private View cardsProgressContainer;
+    private View modeInfoContainer;
+
     private LearnMode learnMode = LearnMode.SHOW_FOREIGN;
     private CardsSource cardsSource = CardsSource.ALL_CARDS;
     private List<CardData> currentCards = new CopyOnWriteArrayList<>();
@@ -72,6 +77,9 @@ public class MainActivity extends AppCompatActivity {
         cardsCount = findViewById(R.id.cards_count);
         cardsSourceInfo = findViewById(R.id.cards_source);
 
+        cardsProgress = findViewById(R.id.cards_progress);
+        cardsProgressContainer = findViewById(R.id.cards_progress_container);
+        modeInfoContainer = findViewById(R.id.mode_info);
 
         initCards();
         setSupportActionBar((Toolbar) findViewById(R.id.bottom_app_bar));
@@ -92,18 +100,21 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.app_bar_mode_1:
+            case R.id.app_bar_mode_foreign:
                 learnMode = LearnMode.SHOW_FOREIGN;
                 break;
             case android.R.id.home:
                 BottomNavigationDrawerFragment bottomNavDrawerFragment = new BottomNavigationDrawerFragment();
                 bottomNavDrawerFragment.show(getSupportFragmentManager(), bottomNavDrawerFragment.getClass().getSimpleName());
                 break;
-            case R.id.app_bar_mode_2:
+            case R.id.app_bar_mode_transcription:
                 learnMode = LearnMode.SHOW_TRANSCRIPTION;
                 break;
-            case R.id.app_bar_mode_3:
+            case R.id.app_bar_mode_translation:
                 learnMode = LearnMode.SHOW_TRANSLATION;
+                break;
+            case R.id.app_bar_mode_full:
+                learnMode = LearnMode.SHOW_FULL;
                 break;
             case R.id.app_bar_source:
                 switch (cardsSource) {
@@ -191,15 +202,18 @@ public class MainActivity extends AppCompatActivity {
         hideAllWords();
         if (cardIndex >= 0 && cardIndex < currentCards.size()) {
             switch (cardState) {
+                case FULL:
+                    foreignWord.setVisibility(View.VISIBLE);
+                    translation.setVisibility(View.VISIBLE);
+                    transcription.setVisibility(View.VISIBLE);
+                    break;
                 case FOREIGN:
                     foreignWord.setVisibility(View.VISIBLE);
                     break;
                 case TRANSLATE:
-//                    foreignWord.setVisibility(View.VISIBLE);
                     translation.setVisibility(View.VISIBLE);
                     break;
                 case TRANSCRIPTION:
-//                    foreignWord.setVisibility(View.VISIBLE);
                     transcription.setVisibility(View.VISIBLE);
                     break;
             }
@@ -256,6 +270,9 @@ public class MainActivity extends AppCompatActivity {
                         break;
                 }
                 break;
+            case SHOW_FULL:
+                cardState = CardState.FULL;
+                break;
         }
         updateCard();
     }
@@ -281,7 +298,20 @@ public class MainActivity extends AppCompatActivity {
             cardIndex = 0;
             updateCard();
         }
+        updateProgress();
     }
+
+    private void updateProgress(){
+        if (currentState){
+            cardsProgress.setText("Current card " + cardIndex + "/" + currentCards.size());
+            modeInfoContainer.setVisibility(View.GONE);
+            cardsProgressContainer.setVisibility(View.VISIBLE);
+        } else {
+            modeInfoContainer.setVisibility(View.VISIBLE);
+            cardsProgressContainer.setVisibility(View.GONE);
+        }
+    }
+
 
     private CardState getDefaultCardState() {
         switch (learnMode) {
@@ -291,6 +321,8 @@ public class MainActivity extends AppCompatActivity {
                 return CardState.TRANSLATE;
             case SHOW_TRANSCRIPTION:
                 return CardState.TRANSCRIPTION;
+            case SHOW_FULL:
+                return CardState.FULL;
 
         }
         return null;
@@ -337,6 +369,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case SHOW_FOREIGN:
                 modeName = "foreign first";
+                break;
+            case SHOW_FULL:
+                modeName = "Full info";
                 break;
         }
         currentMode.setText("Learn mode: " + modeName);

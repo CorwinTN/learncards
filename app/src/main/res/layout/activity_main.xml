@@ -13,9 +13,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-         <RelativeLayout
+         <LinearLayout
              android:layout_width="match_parent"
-             android:layout_height="wrap_content">
+             android:layout_height="match_parent"
+             android:orientation="vertical">
 
              <LinearLayout
                  android:id="@+id/mode_info"
@@ -45,10 +46,27 @@
 
 
              </LinearLayout>
+
+             <LinearLayout
+                 android:id="@+id/cards_progress_container"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:background="#fff"
+                 android:padding="8dp"
+                 android:visibility="gone">
+
+                 <TextView
+                     style="@style/InfoText"
+                     android:id="@+id/cards_progress"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content" />
+
+             </LinearLayout>
+
              <androidx.cardview.widget.CardView
                  android:layout_width="match_parent"
                  android:layout_height="match_parent"
-                 android:layout_below="@id/mode_info"
                  android:layout_marginLeft="24dp"
                  android:layout_marginTop="24dp"
                  android:layout_marginRight="24dp"
@@ -114,7 +132,7 @@
 
              </androidx.cardview.widget.CardView>
 
-         </RelativeLayout>
+         </LinearLayout>
 
         <com.google.android.material.bottomappbar.BottomAppBar
             android:id="@+id/bottom_app_bar"
