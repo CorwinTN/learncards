@@ -832,7 +832,358 @@
       "unknownText": "埃及",
       "translation": "Египет",
       "transcription": "āijí"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "去",
+      "translation": "идти",
+      "transcription": "qù"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "游泳",
+      "translation": "плавать",
+      "transcription": "yóuyǒng"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "昨天",
+      "translation": "вчера",
+      "transcription": "zuótiān"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "京剧",
+      "translation": "пекинская опера",
+      "transcription": "jīngjù"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "怎么样",
+      "translation": "как, какой",
+      "transcription": "zěnmeyàng"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "有意思",
+      "translation": "интересно",
+      "transcription": "yǒuyìsi"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "今天",
+      "translation": "сегодня",
+      "transcription": "jīntiān"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "天",
+      "translation": "день, небо",
+      "transcription": "tiān"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "天气",
+      "translation": "погода",
+      "transcription": "tiānqì"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "太",
+      "translation": "слишком, очень",
+      "transcription": "tài"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "时候",
+      "translation": "время, момент",
+      "transcription": "shíhou"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "现在",
+      "translation": "сейчас, теперь",
+      "transcription": "xiànzài"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "明天",
+      "translation": "завтра",
+      "transcription": "míngtiān"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "有",
+      "translation": "есть, иметь",
+      "transcription": "yǒu"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "时间",
+      "translation": "время",
+      "transcription": "shíjiān"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "说",
+      "translation": "говорить",
+      "transcription": "shuō"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "遍",
+      "translation": "раз",
+      "transcription": "biàn"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "打球",
+      "translation": "играть в мяч",
+      "transcription": "dǎqiú"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "打",
+      "translation": "играть, бить, аударять",
+      "transcription": "dǎ"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "球",
+      "translation": "мяч",
+      "transcription": "qiú"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "抱歉",
+      "translation": "к сожалению, сожалеть",
+      "transcription": "bàoqiàn"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "恐怕",
+      "translation": "боюсь, что...",
+      "transcription": "kǒngpà"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "行",
+      "translation": "можно, ладно, иметь возможность",
+      "transcription": "xíng"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "你们",
+      "translation": "вы (мн. ч.)",
+      "transcription": "nǐmen"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "开学",
+      "translation": "начинается новый учебный год",
+      "transcription": "kāixué"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "开",
+      "translation": "открыть",
+      "transcription": "kāi"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "看",
+      "translation": "смотреть",
+      "transcription": "kàn"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "问",
+      "translation": "спросить",
+      "transcription": "wèn"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "一下",
+      "translation": "-ка, для обозначения быстрого действия",
+      "transcription": "yīxià"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "名片",
+      "translation": "визитка",
+      "transcription": "míngpiàn"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "阿",
+      "translation": "а! ой!",
+      "transcription": "à"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "教授",
+      "translation": "профессор",
+      "transcription": "jiàoshòu"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "介绍",
+      "translation": "представить, знакомить",
+      "transcription": "jièshào"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "名字",
+      "translation": "имя",
+      "transcription": "míngzi"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "中文",
+      "translation": "Китайский язык",
+      "transcription": "zhōngwén"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "专业",
+      "translation": "специальность",
+      "transcription": "zhuānyè"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "美术",
+      "translation": "изобразительное искусство",
+      "transcription": "měishù"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "美",
+      "translation": "красивый",
+      "transcription": "měi"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "文学",
+      "translation": "литература",
+      "transcription": "wénxué"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "系",
+      "translation": "факультет",
+      "transcription": "xì"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "物理",
+      "translation": "физика",
+      "transcription": "wùlǐ"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "化学",
+      "translation": "химия",
+      "transcription": "huàxué"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "数学",
+      "translation": "математика",
+      "transcription": "shùxué"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "音乐",
+      "translation": "музыка",
+      "transcription": "yīnyuè"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "历史",
+      "translation": "история",
+      "transcription": "lìshǐ"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "哲学",
+      "translation": "философия",
+      "transcription": "zhéxué"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "经济",
+      "translation": "экономика",
+      "transcription": "jīngjì"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "教育",
+      "translation": "образование",
+      "transcription": "jiàoyù"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "选修",
+      "translation": "выбрать факультативный предмет",
+      "transcription": "xuǎnxiū"
+    },
+    {
+      "lesson": 7,
+      "id": "",
+      "unknownText": "文化",
+      "translation": "культура",
+      "transcription": "wénhuà"
     }
+
   ],
   "phrases": [
     {
@@ -862,6 +1213,13 @@
       "unknownText": "可以进去马",
       "translation": "",
       "transcription": "kěyǐ jìnqù mǎ"
+    },
+    {
+      "lesson": 6,
+      "id": "",
+      "unknownText": "恐怕不行",
+      "translation": "боюсь, что не смогу",
+      "transcription": ""
     }
 
   ],
