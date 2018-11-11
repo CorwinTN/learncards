@@ -6,13 +6,5 @@
             android:id="@+id/choose_lesson"
             android:icon="@drawable/ic_play"
             android:title="Choose lessons" />
-        <!--<item-->
-            <!--android:id="@+id/nav2"-->
-            <!--android:icon="@drawable/ic_dots"-->
-            <!--android:title="2" />-->
-        <!--<item-->
-            <!--android:id="@+id/nav3"-->
-            <!--android:icon="@drawable/ic_menu"-->
-            <!--android:title="3" />-->
     </group>
 </menu>

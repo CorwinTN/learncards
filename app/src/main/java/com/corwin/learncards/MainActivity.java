@@ -23,6 +23,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.bottomappbar.BottomAppBar;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -65,6 +66,8 @@ public class MainActivity extends AppCompatActivity {
 
     private boolean currentState = false;
 
+    private BottomAppBar toolbar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -82,8 +85,10 @@ public class MainActivity extends AppCompatActivity {
         modeInfoContainer = findViewById(R.id.mode_info);
 
         initCards();
-        setSupportActionBar((Toolbar) findViewById(R.id.bottom_app_bar));
+        toolbar = findViewById(R.id.bottom_app_bar);
+        setSupportActionBar(toolbar);
         updateModeInfo();
+
     }
 
     @Override
@@ -93,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+//        getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 
@@ -115,6 +120,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.app_bar_mode_full:
                 learnMode = LearnMode.SHOW_FULL;
+                break;
+            case R.id.app_bar_back:
+                moveToPreviouseCard();
                 break;
             case R.id.app_bar_source:
                 switch (cardsSource) {
@@ -277,6 +285,15 @@ public class MainActivity extends AppCompatActivity {
         updateCard();
     }
 
+    private void moveToPreviouseCard(){
+        if(cardIndex > 0){
+            cardState = getDefaultCardState();
+            cardIndex--;
+            updateCard();
+            updateProgress();
+        }
+    }
+
     private void moveToNextCard() {
         cardState = getDefaultCardState();
         cardIndex++;
@@ -284,6 +301,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "End of cards", Toast.LENGTH_LONG).show();
             cardIndex = -1;
             currentState = false;
+            toolbar.setFabAlignmentMode(BottomAppBar.FAB_ALIGNMENT_MODE_CENTER);
         } else {
             updateCard();
         }
@@ -297,6 +315,8 @@ public class MainActivity extends AppCompatActivity {
             currentState = true;
             cardIndex = 0;
             updateCard();
+            toolbar.setFabAlignmentMode(BottomAppBar.FAB_ALIGNMENT_MODE_END);
+            toolbar.replaceMenu(R.menu.bottom_nav_lesson_mode);
         }
         updateProgress();
     }
