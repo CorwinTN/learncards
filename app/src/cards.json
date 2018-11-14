@@ -849,13 +849,6 @@
     },
     {
       "lesson": 6,
-      "id": "122",
-      "unknownText": "昨天",
-      "translation": "вчера",
-      "transcription": "zuótiān"
-    },
-    {
-      "lesson": 6,
       "id": "123",
       "unknownText": "京剧",
       "translation": "пекинская опера",
@@ -919,24 +912,10 @@
     },
     {
       "lesson": 6,
-      "id": "132",
-      "unknownText": "明天",
-      "translation": "завтра",
-      "transcription": "míngtiān"
-    },
-    {
-      "lesson": 6,
       "id": "133",
       "unknownText": "有",
       "translation": "есть, иметь",
       "transcription": "yǒu"
-    },
-    {
-      "lesson": 6,
-      "id": "134",
-      "unknownText": "时间",
-      "translation": "время",
-      "transcription": "shíjiān"
     },
     {
       "lesson": 6,
@@ -1024,13 +1003,6 @@
     },
     {
       "lesson": 7,
-      "id": "147",
-      "unknownText": "问",
-      "translation": "спросить",
-      "transcription": "wèn"
-    },
-    {
-      "lesson": 7,
       "id": "148",
       "unknownText": "一下",
       "translation": "-ка, для обозначения быстрого действия",
@@ -1063,20 +1035,6 @@
       "unknownText": "介绍",
       "translation": "представить, знакомить",
       "transcription": "jièshào"
-    },
-    {
-      "lesson": 7,
-      "id": "153",
-      "unknownText": "名字",
-      "translation": "имя",
-      "transcription": "míngzi"
-    },
-    {
-      "lesson": 7,
-      "id": "154",
-      "unknownText": "中文",
-      "translation": "Китайский язык",
-      "transcription": "zhōngwén"
     },
     {
       "lesson": 7,
@@ -1204,14 +1162,14 @@
       "lesson": 4,
       "id": "3",
       "unknownText": "可以进来马",
-      "translation": "",
+      "translation": "разрешите войти",
       "transcription": "kěyǐ jìnlái mǎ"
     },
     {
       "lesson": 4,
       "id": "4",
       "unknownText": "可以进去马",
-      "translation": "",
+      "translation": "разрешите выйти",
       "transcription": "kěyǐ jìnqù mǎ"
     },
     {
@@ -1219,7 +1177,147 @@
       "id": "119",
       "unknownText": "恐怕不行",
       "translation": "боюсь, что не смогу",
-      "transcription": ""
+      "transcription": "kǒngpà bùxíng"
+    },
+    {
+      "lesson": 8,
+      "id": "122",
+      "unknownText": "家",
+      "translation": "семья",
+      "transcription": "jiā"
+    },
+    {
+      "lesson": 8,
+      "id": "132",
+      "unknownText": "几",
+      "translation": "счетное слово для людей",
+      "transcription": "jǐ"
+    },
+    {
+      "lesson": 8,
+      "id": "134",
+      "unknownText": "照片",
+      "translation": "фотография",
+      "transcription": "zhàopiàn"
+    },
+    {
+      "lesson": 8,
+      "id": "147",
+      "unknownText": "和",
+      "translation": "и",
+      "transcription": "hé"
+    },
+    {
+      "lesson": 8,
+      "id": "153",
+      "unknownText": "个",
+      "translation": "счетное слово универсалное",
+      "transcription": "gè"
+    },
+    {
+      "lesson": 8,
+      "id": "154",
+      "unknownText": "姐姐",
+      "translation": "старшая сестра",
+      "transcription": "jiějie"
+    },
+    {
+      "lesson": 8,
+      "id": "170",
+      "unknownText": "两",
+      "translation": "пара, два",
+      "transcription": "liǎng"
+    },
+    {
+      "lesson": 8,
+      "id": "171",
+      "unknownText": "一共",
+      "translation": "итого, всего",
+      "transcription": "yīgòng"
+    },
+    {
+      "lesson": 8,
+      "id": "172",
+      "unknownText": "还",
+      "translation": "еще, тоже",
+      "transcription": "hái"
+    },
+    {
+      "lesson": 8,
+      "id": "173",
+      "unknownText": "妹妹",
+      "translation": "младшая сестра",
+      "transcription": "mèimei"
+    },
+    {
+      "lesson": 8,
+      "id": "174",
+      "unknownText": "小",
+      "translation": "маленький",
+      "transcription": "xiǎo"
+    },
+    {
+      "lesson": 8,
+      "id": "175",
+      "unknownText": "狗",
+      "translation": "собака",
+      "transcription": "gǒu"
+    },
+    {
+      "lesson": 8,
+      "id": "176",
+      "unknownText": "当然",
+      "translation": "конечно",
+      "transcription": "dāngrán"
+    },
+    {
+      "lesson": 8,
+      "id": "177",
+      "unknownText": "张",
+      "translation": "счетное слово для плоских, тонких предметов",
+      "transcription": "zhāng"
+    },
+    {
+      "lesson": 8,
+      "id": "178",
+      "unknownText": "真",
+      "translation": "настоящий, воистину",
+      "transcription": "zhēn"
+    },
+    {
+      "lesson": 8,
+      "id": "179",
+      "unknownText": "可爱",
+      "translation": "милый",
+      "transcription": "kě’ài"
+    },
+    {
+      "lesson": 8,
+      "id": "180",
+      "unknownText": "爱",
+      "translation": "любить",
+      "transcription": "ài"
+    },
+    {
+      "lesson": 8,
+      "id": "181",
+      "unknownText": "没有",
+      "translation": "не иметь",
+      "transcription": "méiyǒu"
+    },
+    {
+      "lesson": 8,
+      "id": "182",
+      "unknownText": "做",
+      "translation": "делать",
+      "transcription": "zuò"
+    },
+    {
+      "lesson": 8,
+      "id": "183",
+      "unknownText": "工作",
+      "translation": "работа",
+      "transcription": "gōngzuò"
     }
 
   ],

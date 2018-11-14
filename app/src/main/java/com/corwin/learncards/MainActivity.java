@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.os.Environment;
 
 import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.appcompat.app.AppCompatActivity;
@@ -122,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
                 learnMode = LearnMode.SHOW_FULL;
                 break;
             case R.id.app_bar_back:
-                moveToPreviouseCard();
+                moveToPreviousCard();
                 break;
             case R.id.app_bar_source:
                 switch (cardsSource) {
@@ -285,8 +284,8 @@ public class MainActivity extends AppCompatActivity {
         updateCard();
     }
 
-    private void moveToPreviouseCard(){
-        if(cardIndex > 0){
+    private void moveToPreviousCard() {
+        if (cardIndex > 0) {
             cardState = getDefaultCardState();
             cardIndex--;
             updateCard();
@@ -321,8 +320,8 @@ public class MainActivity extends AppCompatActivity {
         updateProgress();
     }
 
-    private void updateProgress(){
-        if (currentState){
+    private void updateProgress() {
+        if (currentState) {
             cardsProgress.setText("Current card " + cardIndex + "/" + currentCards.size());
             modeInfoContainer.setVisibility(View.GONE);
             cardsProgressContainer.setVisibility(View.VISIBLE);
@@ -397,12 +396,12 @@ public class MainActivity extends AppCompatActivity {
         currentMode.setText("Learn mode: " + modeName);
     }
 
-    public CardDataList getCardsCollection(){
+    public CardDataList getCardsCollection() {
         return cardsCollection;
     }
 
 
-    public void onOpenLEssonsSelection(){
+    public void onOpenLEssonsSelection() {
         List<String> items = new ArrayList<>();
         String[] stringItems = new String[lessons.size()];
         presentedLessens.clear();
@@ -459,16 +458,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-
-    public void setSelectedLessons(List<Integer> selectedLessons){
+    public void setSelectedLessons(List<Integer> selectedLessons) {
         cardsSource = CardsSource.SELECTED_CARDS;
         CardDataList cardDataList = getCardsCollection();
         currentCards.clear();
         currentCards.addAll(cardDataList.getCards());
         currentCards.addAll(cardDataList.getPhrases());
-        for(CardData card:currentCards){
-            if(!selectedLessons.contains(card.getLesson())){
+        for (CardData card : currentCards) {
+            if (!selectedLessons.contains(card.getLesson())) {
                 currentCards.remove(card);
             }
         }
@@ -479,8 +476,8 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(DialogInterface dialogInterface, int i) {
             selectedLessons.clear();
-            for(int checkIndex = 0; checkIndex < checkedItems.length; checkIndex++){
-                if(checkedItems[checkIndex]){
+            for (int checkIndex = 0; checkIndex < checkedItems.length; checkIndex++) {
+                if (checkedItems[checkIndex]) {
                     selectedLessons.add(presentedLessens.get(checkIndex));
                 }
             }

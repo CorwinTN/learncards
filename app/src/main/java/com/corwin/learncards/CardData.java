@@ -14,6 +14,9 @@ public class CardData {
     @Expose
     private String transcription;
 
+    @Expose
+    private String id;
+
     public String getUnknownText() {
         return unknownText;
     }
@@ -28,5 +31,9 @@ public class CardData {
 
     public Integer getLesson() {
         return lesson;
+    }
+
+    public String getId() {
+        return id;
     }
 }
