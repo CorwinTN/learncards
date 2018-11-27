@@ -1588,6 +1588,83 @@
       "unknownText": "北京",
       "translation": "Пекин",
       "transcription": "běijīng"
+    },
+    {
+      "id": "",
+      "group_id": "1",
+      "unknownText": "〇",
+      "translation": "0",
+      "transcription": "líng"
+    },
+    {
+      "id": "",
+      "group_id": "1",
+      "unknownText": "一",
+      "translation": "1",
+      "transcription": "yī"
+    },
+    {
+      "id": "",
+      "group_id": "1",
+      "unknownText": "二",
+      "translation": "2",
+      "transcription": ""
+    },
+    {
+      "id": "",
+      "group_id": "1",
+      "unknownText": "三",
+      "translation": "3",
+      "transcription": "sān"
+    },
+    {
+      "id": "",
+      "group_id": "1",
+      "unknownText": "四",
+      "translation": "4",
+      "transcription": "sì"
+    },
+    {
+      "id": "",
+      "group_id": "1",
+      "unknownText": "五",
+      "translation": "5",
+      "transcription": "wǔ"
+    },
+    {
+      "id": "",
+      "group_id": "1",
+      "unknownText": "六",
+      "translation": "6",
+      "transcription": "liù"
+    },
+    {
+      "id": "",
+      "group_id": "1",
+      "unknownText": "七",
+      "translation": "7",
+      "transcription": "qī"
+    },
+    {
+      "id": "",
+      "group_id": "1",
+      "unknownText": "八",
+      "translation": "8",
+      "transcription": "bā"
+    },
+    {
+      "id": "",
+      "group_id": "1",
+      "unknownText": "九",
+      "translation": "9",
+      "transcription": "jiǔ"
+    },
+    {
+      "id": "",
+      "group_id": "1",
+      "unknownText": "十",
+      "translation": "10",
+      "transcription": "shí"
     }
 
   ],

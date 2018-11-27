@@ -403,12 +403,15 @@ public class MainActivity extends AppCompatActivity {
 
     public void onOpenLEssonsSelection() {
         List<String> items = new ArrayList<>();
-        String[] stringItems = new String[lessons.size()];
         presentedLessens.clear();
         for (Integer lesson : lessons.keySet()) {
+            if(lesson == null){
+                continue;
+            }
             items.add(lesson.toString() + " - " + lessons.get(lesson) + " cards");
             presentedLessens.add(lesson);
         }
+        String[] stringItems = new String[presentedLessens.size()];
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Choose lessons");
         builder.setMultiChoiceItems(items.toArray(stringItems), checkedItems, new DialogInterface.OnMultiChoiceClickListener() {
