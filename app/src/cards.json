@@ -1140,44 +1140,6 @@
       "unknownText": "文化",
       "translation": "культура",
       "transcription": "wénhuà"
-    }
-
-  ],
-  "phrases": [
-    {
-      "lesson": 4,
-      "id": "1",
-      "unknownText": "我很高兴认识你",
-      "translation": "Я очень рад познакомиться с тобой",
-      "transcription": "wǒ hěn gāoxìng rènshi nǐ"
-    },
-    {
-      "lesson": 4,
-      "id": "2",
-      "unknownText": "我认识你很高兴",
-      "translation": "Я познакомиться с тобой очень рад ",
-      "transcription": "wǒ rènshi nǐ hěn gāoxìng"
-    },
-    {
-      "lesson": 4,
-      "id": "3",
-      "unknownText": "可以进来马",
-      "translation": "разрешите войти",
-      "transcription": "kěyǐ jìnlái mǎ"
-    },
-    {
-      "lesson": 4,
-      "id": "4",
-      "unknownText": "可以进去马",
-      "translation": "разрешите выйти",
-      "transcription": "kěyǐ jìnqù mǎ"
-    },
-    {
-      "lesson": 6,
-      "id": "119",
-      "unknownText": "恐怕不行",
-      "translation": "боюсь, что не смогу",
-      "transcription": "kǒngpà bùxíng"
     },
     {
       "lesson": 8,
@@ -1318,8 +1280,353 @@
       "unknownText": "工作",
       "translation": "работа",
       "transcription": "gōngzuò"
+    },
+    {
+      "lesson": 8,
+      "id": "184",
+      "unknownText": "大",
+      "translation": "большой",
+      "transcription": "dà"
+    },
+    {
+      "lesson": 8,
+      "id": "185",
+      "unknownText": "多少",
+      "translation": "сколько? (больше 10)",
+      "transcription": "duōshǎo"
+    },
+    {
+      "lesson": 8,
+      "id": "186",
+      "unknownText": "多",
+      "translation": "много",
+      "transcription": "duō"
+    },
+    {
+      "lesson": 8,
+      "id": "187",
+      "unknownText": "少",
+      "translation": "мало",
+      "transcription": "shǎo"
+    },
+    {
+      "lesson": 8,
+      "id": "188",
+      "unknownText": "喜欢",
+      "translation": "любить, нравиться",
+      "transcription": "xǐhuan"
+    },
+    {
+      "lesson": 8,
+      "id": "189",
+      "unknownText": "外国",
+      "translation": "зарубежная страна",
+      "transcription": "wàiguó"
+    },
+    {
+      "lesson": 8,
+      "id": "190",
+      "unknownText": "百",
+      "translation": "сто",
+      "transcription": "bǎi"
+    },
+    {
+      "lesson": 9,
+      "id": "191",
+      "unknownText": "今年",
+      "translation": "текущий год",
+      "transcription": "jīnnián"
+    },
+    {
+      "lesson": 9,
+      "id": "192",
+      "unknownText": "年",
+      "translation": "год",
+      "transcription": "nián"
+    },
+    {
+      "lesson": 9,
+      "id": "193",
+      "unknownText": "岁",
+      "translation": "год (лет)",
+      "transcription": "suì"
+    },
+    {
+      "lesson": 9,
+      "id": "194",
+      "unknownText": "课",
+      "translation": "урок",
+      "transcription": "kè"
+    },
+    {
+      "lesson": 9,
+      "id": "195",
+      "unknownText": "星期",
+      "translation": "неделя",
+      "transcription": "xīngqī"
+    },
+    {
+      "lesson": 9,
+      "id": "196",
+      "unknownText": "上午",
+      "translation": "утром",
+      "transcription": "shàngwǔ"
+    },
+    {
+      "lesson": 9,
+      "id": "197",
+      "unknownText": "上",
+      "translation": "прошлый",
+      "transcription": "shàng"
+    },
+    {
+      "lesson": 9,
+      "id": "198",
+      "unknownText": "下午",
+      "translation": "после обеда",
+      "transcription": "xiàwǔ"
+    },
+    {
+      "lesson": 9,
+      "id": "199",
+      "unknownText": "下",
+      "translation": "следующий",
+      "transcription": "xià"
+    },
+    {
+      "lesson": 9,
+      "id": "200",
+      "unknownText": "星期日",
+      "translation": "воскресенье",
+      "transcription": "xīngqīrì"
+    },
+    {
+      "lesson": 9,
+      "id": "201",
+      "unknownText": "号",
+      "translation": "число",
+      "transcription": "hào"
+    },
+    {
+      "lesson": 9,
+      "id": "202",
+      "unknownText": "生日",
+      "translation": "день рождения",
+      "transcription": "shēngri"
+    },
+    {
+      "lesson": 9,
+      "id": "203",
+      "unknownText": "生",
+      "translation": "рожать",
+      "transcription": "shēng"
+    },
+    {
+      "lesson": 9,
+      "id": "204",
+      "unknownText": "多大",
+      "translation": "сколько лет (больше 10)",
+      "transcription": "duōdà"
+    },
+    {
+      "lesson": 9,
+      "id": "205",
+      "unknownText": "多",
+      "translation": "много",
+      "transcription": "duō"
+    },
+    {
+      "lesson": 9,
+      "id": "206",
+      "unknownText": "大",
+      "translation": "большой",
+      "transcription": "dà"
+    },
+    {
+      "lesson": 9,
+      "id": "207",
+      "unknownText": "出生",
+      "translation": "родиться в ...",
+      "transcription": "chūshēng"
+    },
+    {
+      "lesson": 9,
+      "id": "208",
+      "unknownText": "出",
+      "translation": "выйти",
+      "transcription": "chū"
+    },
+    {
+      "lesson": 9,
+      "id": "209",
+      "unknownText": "属",
+      "translation": "зодиакальный знак года рожджения",
+      "transcription": "shǔ"
+    },
+    {
+      "lesson": 9,
+      "id": "210",
+      "unknownText": "吗",
+      "translation": "лошадь",
+      "transcription": "mǎ"
+    },
+    {
+      "lesson": 9,
+      "id": "211",
+      "unknownText": "聚会",
+      "translation": "вечеринка",
+      "transcription": "jùhuì"
+    },
+    {
+      "lesson": 9,
+      "id": "212",
+      "unknownText": "会",
+      "translation": "собрание",
+      "transcription": "huì"
+    },
+    {
+      "lesson": 9,
+      "id": "213",
+      "unknownText": "祝贺",
+      "translation": "поздравлять",
+      "transcription": "zhùhè"
+    },
+    {
+      "lesson": 9,
+      "id": "214",
+      "unknownText": "祝",
+      "translation": "желать",
+      "transcription": "zhù"
+    },
+    {
+      "lesson": 9,
+      "id": "215",
+      "unknownText": "参加",
+      "translation": "участвовать",
+      "transcription": "cānjiā"
+    },
+    {
+      "lesson": 9,
+      "id": "216",
+      "unknownText": "过",
+      "translation": "проводить",
+      "transcription": "guò"
+    },
+    {
+      "lesson": 9,
+      "id": "217",
+      "unknownText": "吃",
+      "translation": "есть, кушать",
+      "transcription": "chī"
+    },
+    {
+      "lesson": 9,
+      "id": "218",
+      "unknownText": "蛋糕",
+      "translation": "торт",
+      "transcription": "dàngāo"
+    },
+    {
+      "lesson": 9,
+      "id": "219",
+      "unknownText": "蛋",
+      "translation": "яйцо",
+      "transcription": "dàn"
+    },
+    {
+      "lesson": 9,
+      "id": "220",
+      "unknownText": "糕",
+      "translation": "пирожное",
+      "transcription": "gāo"
+    },
+    {
+      "lesson": 9,
+      "id": "221",
+      "unknownText": "买",
+      "translation": "покупать",
+      "transcription": "mǎi"
+    },
+    {
+      "lesson": 9,
+      "id": "222",
+      "unknownText": "瓶",
+      "translation": "бутылка",
+      "transcription": "píng"
+    },
+    {
+      "lesson": 9,
+      "id": "223",
+      "unknownText": "红葡萄酒",
+      "translation": "красное вино",
+      "transcription": "hóng pútaojiǔ"
+    },
+    {
+      "lesson": 9,
+      "id": "224",
+      "unknownText": "红",
+      "translation": "красный",
+      "transcription": "hóng"
+    },
+    {
+      "lesson": 9,
+      "id": "225",
+      "unknownText": "葡萄",
+      "translation": "вино",
+      "transcription": "pútao"
+    },
+    {
+      "lesson": 9,
+      "id": "226",
+      "unknownText": "酒",
+      "translation": "алкоголь",
+      "transcription": "jiǔ"
+    },
+    {
+      "lesson": 9,
+      "id": "227",
+      "unknownText": "北京",
+      "translation": "Пекин",
+      "transcription": "běijīng"
     }
 
+  ],
+  "phrases": [
+    {
+      "lesson": 4,
+      "id": "1",
+      "unknownText": "我很高兴认识你",
+      "translation": "Я очень рад познакомиться с тобой",
+      "transcription": "wǒ hěn gāoxìng rènshi nǐ"
+    },
+    {
+      "lesson": 4,
+      "id": "2",
+      "unknownText": "我认识你很高兴",
+      "translation": "Я познакомиться с тобой очень рад ",
+      "transcription": "wǒ rènshi nǐ hěn gāoxìng"
+    },
+    {
+      "lesson": 4,
+      "id": "3",
+      "unknownText": "可以进来马",
+      "translation": "разрешите войти",
+      "transcription": "kěyǐ jìnlái mǎ"
+    },
+    {
+      "lesson": 4,
+      "id": "4",
+      "unknownText": "可以进去马",
+      "translation": "разрешите выйти",
+      "transcription": "kěyǐ jìnqù mǎ"
+    },
+    {
+      "lesson": 6,
+      "id": "119",
+      "unknownText": "恐怕不行",
+      "translation": "боюсь, что не смогу",
+      "transcription": "kǒngpà bùxíng"
+    }
   ],
   "template": {
     "lesson": 0,
