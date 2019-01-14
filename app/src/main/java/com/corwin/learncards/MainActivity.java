@@ -106,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.app_bar_mode_foreign:
                 learnMode = LearnMode.SHOW_FOREIGN;
+                updateModeInfo();
                 break;
             case android.R.id.home:
                 BottomNavigationDrawerFragment bottomNavDrawerFragment = new BottomNavigationDrawerFragment();
@@ -113,12 +114,15 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.app_bar_mode_transcription:
                 learnMode = LearnMode.SHOW_TRANSCRIPTION;
+                updateModeInfo();
                 break;
             case R.id.app_bar_mode_translation:
                 learnMode = LearnMode.SHOW_TRANSLATION;
+                updateModeInfo();
                 break;
             case R.id.app_bar_mode_full:
                 learnMode = LearnMode.SHOW_FULL;
+                updateModeInfo();
                 break;
             case R.id.app_bar_back:
                 moveToPreviousCard();
@@ -132,16 +136,10 @@ public class MainActivity extends AppCompatActivity {
                         cardsSource = CardsSource.ALL_CARDS;
                         break;
                 }
-
+                updateModeInfo();
                 break;
         }
-        updateModeInfo();
         return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    public boolean onContextItemSelected(MenuItem item) {
-        return super.onContextItemSelected(item);
     }
 
     private void initCards() {
