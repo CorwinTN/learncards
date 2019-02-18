@@ -2316,6 +2316,153 @@
       "unknownText": "西",
       "translation": "запад",
       "transcription": "xī"
+    },
+    {
+      "lesson": 13,
+      "id": "331",
+      "unknownText": "姑娘",
+      "translation": "девушка",
+      "transcription": "gūniang"
+    },
+    {
+      "lesson": 13,
+      "id": "332",
+      "unknownText": "听说",
+      "translation": "говорят (, что...)",
+      "transcription": "tīngshuō"
+    },
+    {
+      "lesson": 13,
+      "id": "333",
+      "unknownText": "听",
+      "translation": "слушать",
+      "transcription": "tīng"
+    },
+    {
+      "lesson": 13,
+      "id": "334",
+      "unknownText": "得",
+      "translation": "получить",
+      "transcription": "dé"
+    },
+    {
+      "lesson": 13,
+      "id": "335",
+      "unknownText": "告诉",
+      "translation": "сообщить, сказать",
+      "transcription": "gàosu"
+    },
+    {
+      "lesson": 13,
+      "id": "336",
+      "unknownText": "件",
+      "translation": "счётное слово для одежды или дела",
+      "transcription": "jiàn"
+    },
+    {
+      "lesson": 13,
+      "id": "337",
+      "unknownText": "事儿",
+      "translation": "дело",
+      "transcription": "shìr"
+    },
+    {
+      "lesson": 13,
+      "id": "338",
+      "unknownText": "散步",
+      "translation": "гулять",
+      "transcription": "sànbù"
+    },
+    {
+      "lesson": 13,
+      "id": "339",
+      "unknownText": "步",
+      "translation": "шаг",
+      "transcription": "bù"
+    },
+    {
+      "lesson": 13,
+      "id": "340",
+      "unknownText": "电影",
+      "translation": "фильм",
+      "transcription": "diànyǐng"
+    },
+    {
+      "lesson": 13,
+      "id": "341",
+      "unknownText": "电",
+      "translation": "электричество",
+      "transcription": "diàn"
+    },
+    {
+      "lesson": 13,
+      "id": "342",
+      "unknownText": "影",
+      "translation": "тень",
+      "transcription": "yǐng"
+    },
+    {
+      "lesson": 13,
+      "id": "343",
+      "unknownText": "可是",
+      "translation": "но",
+      "transcription": "kěshì"
+    },
+    {
+      "lesson": 13,
+      "id": "344",
+      "unknownText": "找",
+      "translation": "искать",
+      "transcription": "zhǎo"
+    },
+    {
+      "lesson": 13,
+      "id": "345",
+      "unknownText": "房子",
+      "translation": "дом; квартира",
+      "transcription": "fángzi"
+    },
+    {
+      "lesson": 13,
+      "id": "346",
+      "unknownText": "租",
+      "translation": "арендовать, снимать",
+      "transcription": "zū"
+    },
+    {
+      "lesson": 13,
+      "id": "347",
+      "unknownText": "间",
+      "translation": "счётное слово для комнат",
+      "transcription": "jiān"
+    },
+    {
+      "lesson": 13,
+      "id": "348",
+      "unknownText": "厨房",
+      "translation": "кухня",
+      "transcription": "chúfáng"
+    },
+    {
+      "lesson": 13,
+      "id": "349",
+      "unknownText": "厕所",
+      "translation": "туалет",
+      "transcription": "cèsuǒ"
+    },
+    {
+      "lesson": 13,
+      "id": "350",
+      "unknownText": "房租",
+      "translation": "арендная плата за квартиру",
+      "transcription": "fángzū"
+    },
+    {
+      "lesson": 13,
+      "id": "351",
+      "unknownText": "公司",
+      "translation": "фирма",
+      "transcription": "gōngsī"
     }
 
   ],
