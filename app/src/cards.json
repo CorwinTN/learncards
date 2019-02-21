@@ -2463,8 +2463,168 @@
       "unknownText": "公司",
       "translation": "фирма",
       "transcription": "gōngsī"
+    },
+    {
+      "lesson": 13,
+      "id": "352",
+      "unknownText": "办",
+      "translation": "делать; поступать; оформлять",
+      "transcription": "bàn"
+    },
+    {
+      "lesson": 13,
+      "id": "353",
+      "unknownText": "打电话",
+      "translation": "звонить по телефону",
+      "transcription": "dǎ diànhuà"
+    },
+    {
+      "lesson": 13,
+      "id": "354",
+      "unknownText": "电话",
+      "translation": "телефон",
+      "transcription": "diànhuà"
+    },
+    {
+      "lesson": 13,
+      "id": "355",
+      "unknownText": "让",
+      "translation": "позволять, пусть; заставлять, просить",
+      "transcription": "ràng"
+    },
+    {
+      "lesson": 13,
+      "id": "356",
+      "unknownText": "帮助",
+      "translation": "помогать",
+      "transcription": "bāngzhù"
+    },
+    {
+      "lesson": 13,
+      "id": "357",
+      "unknownText": "喂",
+      "translation": "Эй! Привет! Алло",
+      "transcription": "wèi"
+    },
+    {
+      "lesson": 13,
+      "id": "358",
+      "unknownText": "位",
+      "translation": "счётное слово с выражением вежливости и почтения к человеку",
+      "transcription": "wèi"
+    },
+    {
+      "lesson": 13,
+      "id": "359",
+      "unknownText": "经理",
+      "translation": "директор, управляющий",
+      "transcription": "jīnglǐ"
+    },
+    {
+      "lesson": 13,
+      "id": "360",
+      "unknownText": "可能",
+      "translation": "",
+      "transcription": "kěnéng"
+    },
+    {
+      "lesson": 13,
+      "id": "361",
+      "unknownText": "吃饭",
+      "translation": "обедать; ужинать",
+      "transcription": "chīfàn"
+    },
+    {
+      "lesson": 13,
+      "id": "362",
+      "unknownText": "饭",
+      "translation": "обед; ужин",
+      "transcription": "fàn"
+    },
+    {
+      "lesson": 13,
+      "id": "363",
+      "unknownText": "等",
+      "translation": "ждать",
+      "transcription": "děng"
+    },
+    {
+      "lesson": 13,
+      "id": "364",
+      "unknownText": "客厅",
+      "translation": "гостиная",
+      "transcription": "kètīng"
+    },
+    {
+      "lesson": 13,
+      "id": "365",
+      "unknownText": "卧室",
+      "translation": "спальня",
+      "transcription": "wòshì"
+    },
+    {
+      "lesson": 13,
+      "id": "366",
+      "unknownText": "书房",
+      "translation": "кабинет",
+      "transcription": "shūfáng"
+    },
+    {
+      "lesson": 13,
+      "id": "367",
+      "unknownText": "套",
+      "translation": "набор (счетное слово)",
+      "transcription": "tào"
+    },
+    {
+      "lesson": 13,
+      "id": "368",
+      "unknownText": "方便",
+      "translation": "удобный",
+      "transcription": "fāngbiàn"
+    },
+    {
+      "lesson": 13,
+      "id": "369",
+      "unknownText": "巧",
+      "translation": "как раз (подходящий по размеру)",
+      "transcription": "qiǎo"
+    },
+    {
+      "lesson": 13,
+      "id": "370",
+      "unknownText": "热心",
+      "translation": "заботливый; внимательный",
+      "transcription": "rèxīn"
+    },
+    {
+      "lesson": 13,
+      "id": "371",
+      "unknownText": "包括",
+      "translation": "включать; охватывать; в том числе",
+      "transcription": "bāokuò"
+    },
+    {
+      "lesson": 13,
+      "id": "372",
+      "unknownText": "水电费",
+      "translation": "оплата за воду и электричество",
+      "transcription": "shuǐdiànfèi"
+    },
+    {
+      "lesson": 13,
+      "id": "373",
+      "unknownText": "新",
+      "translation": "новый",
+      "transcription": "xīn"
+    },
+    {
+      "lesson": 13,
+      "id": "374",
+      "unknownText": "回信",
+      "translation": "ответное письмо; ответ",
+      "transcription": "huíxìn"
     }
-
   ],
   "phrases": [
     {
