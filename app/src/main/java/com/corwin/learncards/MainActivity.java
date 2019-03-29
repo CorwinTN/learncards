@@ -68,6 +68,8 @@ public class MainActivity extends AppCompatActivity {
 
     private BottomAppBar toolbar;
 
+    private PeriodLearningManager periodLearningManager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -88,7 +90,8 @@ public class MainActivity extends AppCompatActivity {
         toolbar = findViewById(R.id.bottom_app_bar);
         setSupportActionBar(toolbar);
         updateModeInfo();
-
+        periodLearningManager = new PeriodLearningManager();
+        periodLearningManager.onActivityStarted(this);
     }
 
     @Override
@@ -347,6 +350,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void updateModeInfo() {
+        Toast.makeText(this, "Cards file messed", Toast.LENGTH_LONG).show();
+        if(cardsCollection == null){
+            return;
+        }
         updateLearnModeInfo();
         updateCardsSourceInfo();
     }
