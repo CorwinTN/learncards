@@ -2670,9 +2670,9 @@
     {
       "lesson": 14,
       "id": "381",
-      "unknownText": "",
-      "translation": "",
-      "transcription": ""
+      "unknownText": "上海",
+      "translation": "Шанхай",
+      "transcription": "Shànghǎi"
     },
     {
       "lesson": 14,
@@ -2869,13 +2869,6 @@
       "unknownText": "欧洲",
       "translation": "Европа",
       "transcription": "Ōuzhōu"
-    },
-    {
-      "lesson": 14,
-      "id": "410",
-      "unknownText": "上海",
-      "translation": "Шанхай",
-      "transcription": "Shànghǎi"
     }
   ],
   "phrases": [
