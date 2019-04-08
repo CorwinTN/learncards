@@ -472,11 +472,12 @@ public class MainActivity extends AppCompatActivity {
         cardsSource = CardsSource.SELECTED_CARDS;
         CardDataList cardDataList = getCardsCollection();
         currentCards.clear();
-        currentCards.addAll(cardDataList.getCards());
-        currentCards.addAll(cardDataList.getPhrases());
-        for (CardData card : currentCards) {
-            if (!selectedLessons.contains(card.getLesson())) {
-                currentCards.remove(card);
+        List<CardData> tmpAllCards = new ArrayList<>();
+        tmpAllCards.addAll(cardDataList.getCards());
+        tmpAllCards.addAll(cardDataList.getPhrases());
+        for (CardData card : tmpAllCards) {
+            if (selectedLessons.contains(card.getLesson())) {
+                currentCards.add(card);
             }
         }
         updateCardsSourceInfo();

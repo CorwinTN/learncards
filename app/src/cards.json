@@ -2624,6 +2624,258 @@
       "unknownText": "回信",
       "translation": "ответное письмо; ответ",
       "transcription": "huíxìn"
+    },
+    {
+      "lesson": 14,
+      "id": "375",
+      "unknownText": "中午",
+      "translation": "полдень",
+      "transcription": "zhōngwǔ"
+    },
+    {
+      "lesson": 14,
+      "id": "376",
+      "unknownText": "刚才",
+      "translation": "только что",
+      "transcription": "gāngcái"
+    },
+    {
+      "lesson": 14,
+      "id": "377",
+      "unknownText": "邮局",
+      "translation": "почта",
+      "transcription": "yóujú"
+    },
+    {
+      "lesson": 14,
+      "id": "378",
+      "unknownText": "邮",
+      "translation": "посылать",
+      "transcription": "yóu"
+    },
+    {
+      "lesson": 14,
+      "id": "379",
+      "unknownText": "局",
+      "translation": "бюро, управление",
+      "transcription": "jú"
+    },
+    {
+      "lesson": 14,
+      "id": "380",
+      "unknownText": "寄",
+      "translation": "посылать",
+      "transcription": "jì"
+    },
+    {
+      "lesson": 14,
+      "id": "381",
+      "unknownText": "",
+      "translation": "",
+      "transcription": ""
+    },
+    {
+      "lesson": 14,
+      "id": "382",
+      "unknownText": "打扫",
+      "translation": "dǎsǎo",
+      "transcription": "убирать(ся); подметать"
+    },
+    {
+      "lesson": 14,
+      "id": "383",
+      "unknownText": "扫",
+      "translation": "подметать",
+      "transcription": "sǎo"
+    },
+    {
+      "lesson": 14,
+      "id": "384",
+      "unknownText": "脏",
+      "translation": "грязный",
+      "transcription": "zāng"
+    },
+    {
+      "lesson": 14,
+      "id": "385",
+      "unknownText": "不好意思",
+      "translation": "стесняться",
+      "transcription": "bù hǎoyìsi"
+    },
+    {
+      "lesson": 14,
+      "id": "386",
+      "unknownText": "洗",
+      "translation": "стирать, мыть",
+      "transcription": "xǐ"
+    },
+    {
+      "lesson": 14,
+      "id": "387",
+      "unknownText": "中学",
+      "translation": "средняя школа",
+      "transcription": "zhōngxué"
+    },
+    {
+      "lesson": 14,
+      "id": "388",
+      "unknownText": "打工",
+      "translation": "подрабатывать",
+      "transcription": "dǎgōng"
+    },
+    {
+      "lesson": 14,
+      "id": "389",
+      "unknownText": "南方",
+      "translation": "юг",
+      "transcription": "nánfāng"
+    },
+    {
+      "lesson": 14,
+      "id": "390",
+      "unknownText": "旅行",
+      "translation": "путешествовать",
+      "transcription": "lǚxíng"
+    },
+    {
+      "lesson": 14,
+      "id": "391",
+      "unknownText": "留学生",
+      "translation": "иностранный учащийся",
+      "transcription": "liúxuéshēng"
+    },
+    {
+      "lesson": 14,
+      "id": "392",
+      "unknownText": "住",
+      "translation": "проживать",
+      "transcription": "zhù"
+    },
+    {
+      "lesson": 14,
+      "id": "393",
+      "unknownText": "楼",
+      "translation": "здание; дом (выше двух этажей)",
+      "transcription": "lóu"
+    },
+    {
+      "lesson": 14,
+      "id": "394",
+      "unknownText": "对",
+      "translation": "правильно",
+      "transcription": "duì"
+    },
+    {
+      "lesson": 14,
+      "id": "395",
+      "unknownText": "念",
+      "translation": "читать",
+      "transcription": "niàn"
+    },
+    {
+      "lesson": 14,
+      "id": "396",
+      "unknownText": "生词",
+      "translation": "новые слова",
+      "transcription": "shēngcí"
+    },
+    {
+      "lesson": 14,
+      "id": "397",
+      "unknownText": "生",
+      "translation": "новый",
+      "transcription": "shēng"
+    },
+    {
+      "lesson": 14,
+      "id": "398",
+      "unknownText": "词",
+      "translation": "слово",
+      "transcription": "cí"
+    },
+    {
+      "lesson": 14,
+      "id": "399",
+      "unknownText": "复习",
+      "translation": "повторять",
+      "transcription": "fùxí"
+    },
+    {
+      "lesson": 14,
+      "id": "400",
+      "unknownText": "课文",
+      "translation": "текст",
+      "transcription": "kèwén"
+    },
+    {
+      "lesson": 14,
+      "id": "401",
+      "unknownText": "练习",
+      "translation": "упражняться; упражнение",
+      "transcription": "liànxí"
+    },
+    {
+      "lesson": 14,
+      "id": "402",
+      "unknownText": "练",
+      "translation": "упражняться",
+      "transcription": "liàn"
+    },
+    {
+      "lesson": 14,
+      "id": "403",
+      "unknownText": "口语",
+      "translation": "устная речь",
+      "transcription": "kǒuyǔ"
+    },
+    {
+      "lesson": 14,
+      "id": "404",
+      "unknownText": "语法",
+      "translation": "грамматика",
+      "transcription": "yǔfǎ"
+    },
+    {
+      "lesson": 14,
+      "id": "405",
+      "unknownText": "过",
+      "translation": "проводить, праздновать",
+      "transcription": "guò"
+    },
+    {
+      "lesson": 14,
+      "id": "406",
+      "unknownText": "节",
+      "translation": "праздник",
+      "transcription": "jié"
+    },
+    {
+      "lesson": 14,
+      "id": "407",
+      "unknownText": "礼物",
+      "translation": "подарок",
+      "transcription": "lǐwù"
+    },
+    {
+      "lesson": 14,
+      "id": "408",
+      "unknownText": "圣诞",
+      "translation": "Рождество",
+      "transcription": "Shèngdàn"
+    },
+    {
+      "lesson": 14,
+      "id": "409",
+      "unknownText": "欧洲",
+      "translation": "Европа",
+      "transcription": "Ōuzhōu"
+    },
+    {
+      "lesson": 14,
+      "id": "410",
+      "unknownText": "上海",
+      "translation": "Шанхай",
+      "transcription": "Shànghǎi"
     }
   ],
   "phrases": [
