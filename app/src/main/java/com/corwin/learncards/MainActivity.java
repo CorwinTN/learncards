@@ -11,6 +11,7 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.os.PersistableBundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -35,11 +36,13 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
+    private final static  String KEY_CURRENT_STATE = "KEY_CURRENT_STATE";
+    private final static  String KEY_CURRENT_CARDS = "KEY_CURRENT_CARDS";
+    private final static  String KEY_CURRENT_CARD_INDEX = "KEY_CURRENT_CARD_INDEX";
     private final int MY_PERMISSIONS_REQUEST_READ_STORAGE = 6576;
     private CardDataList cardsCollection;
     private int cardIndex = 0;
@@ -54,10 +57,11 @@ public class MainActivity extends AppCompatActivity {
     private TextView cardsProgress;
     private View cardsProgressContainer;
     private View modeInfoContainer;
+    private long lastBackPressTime;
 
     private LearnMode learnMode = LearnMode.SHOW_FOREIGN;
     private CardsSource cardsSource = CardsSource.ALL_CARDS;
-    private List<CardData> currentCards = new CopyOnWriteArrayList<>();
+    private ArrayList<CardData> currentCards = new ArrayList<>();
 
     private Map<Integer, Integer> lessons = new HashMap<>();
     private List<Integer> presentedLessens = new ArrayList<>();
@@ -177,7 +181,6 @@ public class MainActivity extends AppCompatActivity {
         File sdcard = Environment.getExternalStorageDirectory();
         File file = new File(sdcard, "LearnCards/cards.json");
         StringBuilder text = new StringBuilder();
-
         try {
             BufferedReader br = new BufferedReader(new FileReader(file));
             String line;
@@ -189,11 +192,13 @@ public class MainActivity extends AppCompatActivity {
             br.close();
         } catch (IOException e) {
             Log.d("", "");
-            //You'll need to add proper error handling here
         }
         Gson gson = new GsonBuilder().create();
         cardsCollection = gson.fromJson(text.toString(), CardDataList.class);
-
+        if(cardsCollection == null){
+            Toast.makeText(this, "Cards file messed", Toast.LENGTH_LONG).show();
+            return;
+        }
         for (CardData card : cardsCollection.getCards()) {
             addToLessonsList(card);
         }
@@ -201,10 +206,7 @@ public class MainActivity extends AppCompatActivity {
             addToLessonsList(card);
         }
         checkedItems = new boolean[lessons.size()];
-
         updateCard();
-        Log.d("", "");
-
     }
 
     private void updateCard() {
@@ -324,7 +326,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void updateProgress() {
         if (currentState) {
-            cardsProgress.setText("Current card " + cardIndex + "/" + currentCards.size());
+            cardsProgress.setText("Current card " + (cardIndex + 1) + "/" + currentCards.size());
             modeInfoContainer.setVisibility(View.GONE);
             cardsProgressContainer.setVisibility(View.VISIBLE);
         } else {
@@ -350,7 +352,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void updateModeInfo() {
-        Toast.makeText(this, "Cards file messed", Toast.LENGTH_LONG).show();
         if(cardsCollection == null){
             return;
         }
@@ -503,5 +504,26 @@ public class MainActivity extends AppCompatActivity {
         lessons.put(lesson, lessons.get(lesson) + 1);
     }
 
+    @Override
+    public void onBackPressed() {
+        long currentTime = System.currentTimeMillis();
+        if(currentTime - lastBackPressTime < 1000){
+            super.onBackPressed();
+        } else {
+            Toast.makeText(this, "Press back again to exit", Toast.LENGTH_SHORT)
+                    .show();
+        }
+        lastBackPressTime = currentTime;
+    }
 
+    @Override
+    public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState) {
+        super.onSaveInstanceState(outState, outPersistentState);
+        if(currentState){
+            outState.putBoolean(KEY_CURRENT_STATE, currentState);
+            outState.putParcelableArrayList(KEY_CURRENT_CARDS, currentCards);
+            outState.putSerializable(KEY_CURRENT_CARD_INDEX, cardIndex);
+        }
+
+    }
 }
