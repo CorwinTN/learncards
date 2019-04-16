@@ -2869,6 +2869,342 @@
       "unknownText": "欧洲",
       "translation": "Европа",
       "transcription": "Ōuzhōu"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "得",
+      "translation": "показатель обстоятельства, следующего за сказуемым",
+      "transcription": "de"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "早",
+      "translation": "рано, ранний",
+      "transcription": "zǎo"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "银行",
+      "translation": "банк",
+      "transcription": "yínháng"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "少",
+      "translation": "мало",
+      "transcription": "shǎo"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "排",
+      "translation": "расставить",
+      "transcription": "pái"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "队",
+      "translation": "отряд, очередь",
+      "transcription": "duì"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "排队",
+      "translation": "стоять в очереди",
+      "transcription": "páiduì"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "换",
+      "translation": "менять",
+      "transcription": "huàn"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "英镑",
+      "translation": "фунт стерлингов",
+      "transcription": "yīngbàng"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "人民币",
+      "translation": "Жэньминьби",
+      "transcription": "rénmínbì"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "人民",
+      "translation": "народ",
+      "transcription": "rénmín"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "得",
+      "translation": "надо, нужно",
+      "transcription": "děi"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "用",
+      "translation": "употреблять, пользоваться",
+      "transcription": "yòng"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "刚",
+      "translation": "только что",
+      "transcription": "gāng"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "从",
+      "translation": "с, из, от",
+      "transcription": "cóng"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "非常",
+      "translation": "очень, слишком",
+      "transcription": "fēicháng"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "次",
+      "translation": "раз (в этот раз)",
+      "transcription": "cì"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "参观",
+      "translation": "посещать",
+      "transcription": "cānguān"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "兵马俑",
+      "translation": "Музей воинов и коней в гробницах Цинь Шихуана, терракотовая армия",
+      "transcription": "bīngmǎyǒng"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "兵",
+      "translation": "солдат",
+      "transcription": "bīng"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "明信片",
+      "translation": "открытка",
+      "transcription": "míngxìnpiàn"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "该",
+      "translation": "надо, нужно",
+      "transcription": "gāi"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "人员",
+      "translation": "персонал",
+      "transcription": "rényuán"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "工作人员",
+      "translation": "работник",
+      "transcription": "gōngzuò rényuán"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "千",
+      "translation": "тысяча",
+      "transcription": "qiān"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "西安",
+      "translation": "Сиань",
+      "transcription": "xī’ān"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "好久",
+      "translation": "Давно",
+      "transcription": "hǎojiǔ"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "好久不见",
+      "translation": "Давно не виделись; сколько лет, сколько зим",
+      "transcription": ""
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "发展",
+      "translation": "Развивать",
+      "transcription": "fāzhǎn"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "快",
+      "translation": "Быстрый",
+      "transcription": "kuài"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "话",
+      "translation": "речь",
+      "transcription": "huà"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "普",
+      "translation": "повсеместный, общий, распространенный",
+      "transcription": "pǔ"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "普通话",
+      "translation": "Путунхуа",
+      "transcription": "pǔtōnghuà"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "年轻",
+      "translation": "молодой",
+      "transcription": "niánqīng"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "轻",
+      "translation": "легкий",
+      "transcription": "qīng"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "流利",
+      "translation": "беглый, свободный (о речи)",
+      "transcription": "liúlì"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "懂",
+      "translation": "понять",
+      "transcription": "dǒng"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "就",
+      "translation": "только",
+      "transcription": "jiù"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "美元",
+      "translation": "американский доллар",
+      "transcription": "měiyuán"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "欧元",
+      "translation": "евро",
+      "transcription": "ōuyuán"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "亚洲",
+      "translation": "Азия",
+      "transcription": "yàzhōu"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "汇率",
+      "translation": "курс валюты",
+      "transcription": "huìlǜ"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "现金",
+      "translation": "наличные деньги",
+      "transcription": "xiànjīn"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "信用卡",
+      "translation": "кредитка",
+      "transcription": "xìnyòngkǎ"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "城市",
+      "translation": "город",
+      "transcription": "chéngshì"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "地方",
+      "translation": "место",
+      "transcription": "dìfang"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "儿子",
+      "translation": "сын",
+      "transcription": "érzi"
+    },
+    {
+      "lesson": 15,
+      "id": "4",
+      "unknownText": "菜",
+      "translation": "овощи; зелень",
+      "transcription": "cài"
     }
   ],
   "phrases": [
