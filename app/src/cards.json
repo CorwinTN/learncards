@@ -2872,339 +2872,1032 @@
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "410",
       "unknownText": "得",
       "translation": "показатель обстоятельства, следующего за сказуемым",
       "transcription": "de"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "411",
       "unknownText": "早",
       "translation": "рано, ранний",
       "transcription": "zǎo"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "412",
       "unknownText": "银行",
       "translation": "банк",
       "transcription": "yínháng"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "413",
       "unknownText": "少",
       "translation": "мало",
       "transcription": "shǎo"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "414",
       "unknownText": "排",
       "translation": "расставить",
       "transcription": "pái"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "415",
       "unknownText": "队",
       "translation": "отряд, очередь",
       "transcription": "duì"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "416",
       "unknownText": "排队",
       "translation": "стоять в очереди",
       "transcription": "páiduì"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "417",
       "unknownText": "换",
       "translation": "менять",
       "transcription": "huàn"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "418",
       "unknownText": "英镑",
       "translation": "фунт стерлингов",
       "transcription": "yīngbàng"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "419",
       "unknownText": "人民币",
       "translation": "Жэньминьби",
       "transcription": "rénmínbì"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "420",
       "unknownText": "人民",
       "translation": "народ",
       "transcription": "rénmín"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "421",
       "unknownText": "得",
       "translation": "надо, нужно",
       "transcription": "děi"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "422",
       "unknownText": "用",
       "translation": "употреблять, пользоваться",
       "transcription": "yòng"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "423",
       "unknownText": "刚",
       "translation": "только что",
       "transcription": "gāng"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "424",
       "unknownText": "从",
       "translation": "с, из, от",
       "transcription": "cóng"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "425",
       "unknownText": "非常",
       "translation": "очень, слишком",
       "transcription": "fēicháng"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "426",
       "unknownText": "次",
       "translation": "раз (в этот раз)",
       "transcription": "cì"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "427",
       "unknownText": "参观",
       "translation": "посещать",
       "transcription": "cānguān"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "428",
       "unknownText": "兵马俑",
       "translation": "Музей воинов и коней в гробницах Цинь Шихуана, терракотовая армия",
       "transcription": "bīngmǎyǒng"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "429",
       "unknownText": "兵",
       "translation": "солдат",
       "transcription": "bīng"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "430",
       "unknownText": "明信片",
       "translation": "открытка",
       "transcription": "míngxìnpiàn"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "431",
       "unknownText": "该",
       "translation": "надо, нужно",
       "transcription": "gāi"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "432",
       "unknownText": "人员",
       "translation": "персонал",
       "transcription": "rényuán"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "433",
       "unknownText": "工作人员",
       "translation": "работник",
       "transcription": "gōngzuò rényuán"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "434",
       "unknownText": "千",
       "translation": "тысяча",
       "transcription": "qiān"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "435",
       "unknownText": "西安",
       "translation": "Сиань",
       "transcription": "xī’ān"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "436",
       "unknownText": "好久",
       "translation": "Давно",
       "transcription": "hǎojiǔ"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "437",
       "unknownText": "好久不见",
       "translation": "Давно не виделись; сколько лет, сколько зим",
       "transcription": ""
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "438",
       "unknownText": "发展",
       "translation": "Развивать",
       "transcription": "fāzhǎn"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "439",
       "unknownText": "快",
       "translation": "Быстрый",
       "transcription": "kuài"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "440",
       "unknownText": "话",
       "translation": "речь",
       "transcription": "huà"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "441",
       "unknownText": "普",
       "translation": "повсеместный, общий, распространенный",
       "transcription": "pǔ"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "442",
       "unknownText": "普通话",
       "translation": "Путунхуа",
       "transcription": "pǔtōnghuà"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "443",
       "unknownText": "年轻",
       "translation": "молодой",
       "transcription": "niánqīng"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "444",
       "unknownText": "轻",
       "translation": "легкий",
       "transcription": "qīng"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "445",
       "unknownText": "流利",
       "translation": "беглый, свободный (о речи)",
       "transcription": "liúlì"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "446",
       "unknownText": "懂",
       "translation": "понять",
       "transcription": "dǒng"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "447",
       "unknownText": "就",
       "translation": "только",
       "transcription": "jiù"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "448",
       "unknownText": "美元",
       "translation": "американский доллар",
       "transcription": "měiyuán"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "449",
       "unknownText": "欧元",
       "translation": "евро",
       "transcription": "ōuyuán"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "450",
       "unknownText": "亚洲",
       "translation": "Азия",
       "transcription": "yàzhōu"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "451",
       "unknownText": "汇率",
       "translation": "курс валюты",
       "transcription": "huìlǜ"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "452",
       "unknownText": "现金",
       "translation": "наличные деньги",
       "transcription": "xiànjīn"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "453",
       "unknownText": "信用卡",
       "translation": "кредитка",
       "transcription": "xìnyòngkǎ"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "454",
       "unknownText": "城市",
       "translation": "город",
       "transcription": "chéngshì"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "455",
       "unknownText": "地方",
       "translation": "место",
       "transcription": "dìfang"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "456",
       "unknownText": "儿子",
       "translation": "сын",
       "transcription": "érzi"
     },
     {
       "lesson": 15,
-      "id": "4",
+      "id": "457",
       "unknownText": "菜",
       "translation": "овощи; зелень",
       "transcription": "cài"
+    },
+    {
+      "lesson": 15,
+      "id": "458",
+      "unknownText": "菜",
+      "translation": "овощи; зелень",
+      "transcription": "cài"
+    },
+    {
+      "lesson": 16,
+      "id": "459",
+      "unknownText": "把",
+      "translation": "предлог для объекта действия",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "460",
+      "unknownText": "忘",
+      "translation": "забыть",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "461",
+      "unknownText": "图书",
+      "translation": "книга",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "462",
+      "unknownText": "馆",
+      "translation": "гостиница, ресторан, культурно-просветителское учреждение",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "463",
+      "unknownText": "图书馆",
+      "translation": "Библиотека",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "464",
+      "unknownText": "办公",
+      "translation": "работать",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "465",
+      "unknownText": "室",
+      "translation": "комната, кабинет",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "466",
+      "unknownText": "办公室",
+      "translation": "кабинет",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "467",
+      "unknownText": "先",
+      "translation": "сначала, прежний",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "468",
+      "unknownText": "借",
+      "translation": "взять",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "469",
+      "unknownText": "证",
+      "translation": "карта, свидетельство",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "470",
+      "unknownText": "借书证",
+      "translation": "читательский билет",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "471",
+      "unknownText": "一会儿",
+      "translation": "немного, недолго",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "472",
+      "unknownText": "带",
+      "translation": "нести",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "473",
+      "unknownText": "填",
+      "translation": "заполнить",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "474",
+      "unknownText": "表",
+      "translation": "бланк",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "475",
+      "unknownText": "拿",
+      "translation": "брать",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "476",
+      "unknownText": "慢",
+      "translation": "медленный",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "477",
+      "unknownText": "不行",
+      "translation": "не получится",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "478",
+      "unknownText": "生活",
+      "translation": "жить, жизнь",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "479",
+      "unknownText": "自己",
+      "translation": "сам, собственный",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "480",
+      "unknownText": "性别",
+      "translation": "пол",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "481",
+      "unknownText": "职业",
+      "translation": "профессия",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "482",
+      "unknownText": "交",
+      "translation": "отдать",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "483",
+      "unknownText": "长",
+      "translation": "длинный",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "484",
+      "unknownText": "考试",
+      "translation": "сдавать экзамен",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "485",
+      "unknownText": "考",
+      "translation": "принять экзамен",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "486",
+      "unknownText": "不错",
+      "translation": "неплохой",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "487",
+      "unknownText": "翻译",
+      "translation": "переводить",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "488",
+      "unknownText": "新",
+      "translation": "новый",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "489",
+      "unknownText": "课本",
+      "translation": "учебник",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "490",
+      "unknownText": "还",
+      "translation": "вернуть",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "491",
+      "unknownText": "过期",
+      "translation": "просрочить",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "492",
+      "unknownText": "罚",
+      "translation": "наказывать",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "493",
+      "unknownText": "款",
+      "translation": "деньги, средства",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "494",
+      "unknownText": "罚款",
+      "translation": "штрафовать, штраф",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "495",
+      "unknownText": "电脑",
+      "translation": "компьютер",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "496",
+      "unknownText": "查",
+      "translation": "проверять",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "497",
+      "unknownText": "实用",
+      "translation": "практический",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "498",
+      "unknownText": "阅览",
+      "translation": "читать книги, просматривать",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "499",
+      "unknownText": "阅览室",
+      "translation": "читальный зал",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "500",
+      "unknownText": "杂志",
+      "translation": "журнал, сборник",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "501",
+      "unknownText": "问答",
+      "translation": "ответить",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "502",
+      "unknownText": "预订",
+      "translation": "заказать",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "503",
+      "unknownText": "国籍",
+      "translation": "гражданство",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "504",
+      "unknownText": "钥匙",
+      "translation": "ключ",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "505",
+      "unknownText": "借",
+      "translation": "брать взаймы",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "506",
+      "unknownText": "续借",
+      "translation": "продлить срок",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "507",
+      "unknownText": "年龄",
+      "translation": "возраст",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "508",
+      "unknownText": "广东",
+      "translation": "Гуандун",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "509",
+      "unknownText": "茶楼",
+      "translation": "Чайхона, чайный домик",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "510",
+      "unknownText": "开始",
+      "translation": "начинать",
+      "transcription": ""
+    },
+    {
+      "lesson": 16,
+      "id": "511",
+      "unknownText": "热闹",
+      "translation": "оживленный, шумный, веселый",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "512",
+      "unknownText": "旗袍",
+      "translation": "Китайской дамское платье Ципао",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "513",
+      "unknownText": "比",
+      "translation": "чем, по сравнению с...",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "514",
+      "unknownText": "卖",
+      "translation": "продать",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "515",
+      "unknownText": "中式",
+      "translation": "по-китайски, китайского стиля",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "516",
+      "unknownText": "式",
+      "translation": "фасон",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "517",
+      "unknownText": "已经",
+      "translation": "уже",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "518",
+      "unknownText": "商店",
+      "translation": "магазин",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "519",
+      "unknownText": "极了",
+      "translation": "прекрасно, превосходно",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "520",
+      "unknownText": "一定",
+      "translation": "обязательно",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "521",
+      "unknownText": "开始",
+      "translation": "начать",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "522",
+      "unknownText": "差",
+      "translation": "недостаточный, плохой",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "523",
+      "unknownText": "太极拳",
+      "translation": "китайская гимнастика, тайцзыюань",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "524",
+      "unknownText": "套",
+      "translation": "набор, комплект",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "525",
+      "unknownText": "帅",
+      "translation": "представительный",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "526",
+      "unknownText": "颜色",
+      "translation": "цвет",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "527",
+      "unknownText": "黑",
+      "translation": "черный",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "528",
+      "unknownText": "便宜",
+      "translation": "дешевый",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "529",
+      "unknownText": "公园",
+      "translation": "парк",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "530",
+      "unknownText": "走",
+      "translation": "ходить",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "531",
+      "unknownText": "小时",
+      "translation": "час",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "532",
+      "unknownText": "过去",
+      "translation": "проходить",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "533",
+      "unknownText": "衬衫",
+      "translation": "рубашка",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "534",
+      "unknownText": "绿",
+      "translation": "зеленый",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "535",
+      "unknownText": "样子",
+      "translation": "вид, фасон, модель",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "536",
+      "unknownText": "售货员",
+      "translation": "продавец",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "537",
+      "unknownText": "试",
+      "translation": "примерить, попробоват, попытка",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "538",
+      "unknownText": "觉得",
+      "translation": "считать, казаться, ощущать",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "539",
+      "unknownText": "合适",
+      "translation": "удобный, подходящий",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "540",
+      "unknownText": "短",
+      "translation": "короткий",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "541",
+      "unknownText": "公分",
+      "translation": "сантиметр, грамм",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "542",
+      "unknownText": "麻烦",
+      "translation": "доставлять кому-то хлопоты, беспокоить",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "543",
+      "unknownText": "丝绸",
+      "translation": "шелк",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "544",
+      "unknownText": "西服",
+      "translation": "костюм европейского покроя",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "545",
+      "unknownText": "双",
+      "translation": "пара (обувь)",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "546",
+      "unknownText": "鞋子",
+      "translation": "туфли",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "547",
+      "unknownText": "头发",
+      "translation": "волосы",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "548",
+      "unknownText": "打折",
+      "translation": "делать скидку",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "549",
+      "unknownText": "条",
+      "translation": "сч. слово для длинных, продолговатых предметов",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "550",
+      "unknownText": "裤子",
+      "translation": "брюки",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "551",
+      "unknownText": "相声",
+      "translation": "юмористический, сатирический скетч диалог",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "552",
+      "unknownText": "了不起",
+      "translation": "выдающийся",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "553",
+      "unknownText": "薄",
+      "translation": "тонкий",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "554",
+      "unknownText": "料子",
+      "translation": "материал, ткань",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "555",
+      "unknownText": "布",
+      "translation": "ткань, полотно",
+      "transcription": ""
+    },
+    {
+      "lesson": 17,
+      "id": "556",
+      "unknownText": "总是",
+      "translation": "всегда, безусловно",
+      "transcription": ""
     }
   ],
   "phrases": [
