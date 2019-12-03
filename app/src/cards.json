@@ -3891,6 +3891,356 @@
       "unknownText": "布",
       "translation": "ткань, полотно",
       "transcription": "bù"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "记",
+      "translation": "помнить, запомнить",
+      "transcription": "jì"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "错",
+      "translation": "погрешность, ошибочный",
+      "transcription": "cuò"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "包裹",
+      "translation": "посылка",
+      "transcription": "bāoguǒ"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "些",
+      "translation": "одни",
+      "transcription": "xiē"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "英文",
+      "translation": "английский язык",
+      "transcription": "yīngwén"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "词典",
+      "translation": "словарь",
+      "transcription": "cídiǎn"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "旧",
+      "translation": "старый",
+      "transcription": "jiù"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "包",
+      "translation": "сумка",
+      "transcription": "bāo"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "往",
+      "translation": "в, на",
+      "transcription": "wǎng"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "航空",
+      "translation": "авиация, воздушное сообщение",
+      "transcription": "hángkōng"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "空",
+      "translation": "небо",
+      "transcription": "kōng"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "海",
+      "translation": "море",
+      "transcription": "hǎi"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "海运",
+      "translation": "морской транспорт",
+      "transcription": "hǎiyùn"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "费",
+      "translation": "расходы",
+      "transcription": "fèi"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "邮费",
+      "translation": "почтовый сбор, расходы",
+      "transcription": "yóufèi"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "取",
+      "translation": "взять, получить",
+      "transcription": "qǔ"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "通知",
+      "translation": "сообщить, известить, сообщение",
+      "transcription": "tōngzhī"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "单",
+      "translation": "ордер",
+      "transcription": "dān"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "通知单",
+      "translation": "извещение",
+      "transcription": "tōngzhīdān"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "海关",
+      "translation": "таможня",
+      "transcription": "hǎiguān"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "别",
+      "translation": "не",
+      "transcription": "bié"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "护照",
+      "translation": "паспорт",
+      "transcription": "hùzhào"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "客气",
+      "translation": "вежливый, любезный",
+      "transcription": "kèqi"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "门",
+      "translation": "дверь",
+      "transcription": "mén"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "路",
+      "translation": "дорога, рейс",
+      "transcription": "lù"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "公共",
+      "translation": "общественный",
+      "transcription": "gōnggòng"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "公共汽车",
+      "translation": "автобус",
+      "transcription": "gōnggòng qìchē"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "经过",
+      "translation": "проходить",
+      "transcription": "jīngguò"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "好像",
+      "translation": "напоминать, походить",
+      "transcription": "hǎoxiàng"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "咱们",
+      "translation": "мы с вами",
+      "transcription": "zánmen"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "票",
+      "translation": "билет",
+      "transcription": "piào"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "售票员",
+      "translation": "кондуктор",
+      "transcription": "shòupiàoyuán"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "大家",
+      "translation": "все",
+      "transcription": "dàjiā"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "站",
+      "translation": "остановка, станция",
+      "transcription": "zhàn"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "里边",
+      "translation": "внутри",
+      "transcription": "lǐbian"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "乘客",
+      "translation": "пассажир",
+      "transcription": "chéngkè"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "乘",
+      "translation": "сесть (на транспорт)",
+      "transcription": "chéng"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "客",
+      "translation": "гость",
+      "transcription": "kè"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "地铁",
+      "translation": "метро",
+      "transcription": "dìtiě"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "放心",
+      "translation": "успокоиться",
+      "transcription": "fàngxīn"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "糟糕",
+      "translation": "беда, скверный",
+      "transcription": "zāogāo"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "邮票",
+      "translation": "почтовая марка",
+      "transcription": "yóupiào"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "纪念",
+      "translation": "память",
+      "transcription": "jìniàn"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "然后",
+      "translation": "потом, затем",
+      "transcription": "ránhòu"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "准备",
+      "translation": "подготовка, готовить",
+      "transcription": "zhǔnbèi"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "聪明",
+      "translation": "умный, смышленый",
+      "transcription": "cōngmíng"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "封",
+      "translation": "сч.слово для писем",
+      "transcription": "fēng"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "信封",
+      "translation": "конверт",
+      "transcription": "xìnfēng"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "贴",
+      "translation": "наклеить",
+      "transcription": "tiē"
+    },
+    {
+      "lesson": 18,
+      "id": "",
+      "unknownText": "孙子",
+      "translation": "внук",
+      "transcription": "sūnzi"
     }
   ],
   "phrases": [
